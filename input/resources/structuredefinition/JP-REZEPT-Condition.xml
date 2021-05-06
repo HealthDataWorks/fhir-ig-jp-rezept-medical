@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="JP-REZEPT-Condition"/>
     <meta>
-        <versionId value="24"/>
-        <lastUpdated value="2021-04-21T07:53:14.063+00:00"/>
-        <source value="#xVgQZIrp9US5aPUt"/>
+        <versionId value="25"/>
+        <lastUpdated value="2021-05-06T05:19:02.960+00:00"/>
+        <source value="#eTX9xObfHKfThHNT"/>
     </meta>
-    <url value="https://healthdataworks.net/StructureDefinition/JP-REZEPT-Condition"/>
+    <url value="https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition-JP-REZEPT-Condition.html"/>
     <name value="Condition"/>
     <title value="患者の傷病記録"/>
     <status value="draft"/>

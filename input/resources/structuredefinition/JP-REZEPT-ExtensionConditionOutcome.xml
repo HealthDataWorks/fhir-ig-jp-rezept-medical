@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="JP-REZEPT-ExtensionConditionOutcome"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2021-04-19T11:39:29.651+00:00"/>
-        <source value="#eAsaysFSyzYpzyeE"/>
+        <versionId value="12"/>
+        <lastUpdated value="2021-05-06T05:29:15.658+00:00"/>
+        <source value="#Xy5mnS0sxbKXMz7u"/>
     </meta>
-    <url value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionConditionOutcome"/>
+    <url value="https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition-JP-REZEPT-ExtensionConditionOutcome.html"/>
     <name value="ExtensionConditionOutcome"/>
     <title value="転帰区分コード"/>
     <status value="draft"/>
