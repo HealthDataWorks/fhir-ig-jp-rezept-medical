@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="jp-rezept-medical"/>
     <meta>
-        <versionId value="16"/>
-        <lastUpdated value="2021-04-28T02:03:37.649+00:00"/>
-        <source value="#YXGv3KgL9kZXsOoh"/>
+        <versionId value="18"/>
+        <lastUpdated value="2021-05-06T22:05:46.974+00:00"/>
+        <source value="#N7lgGubrIP50BnkV"/>
     </meta>
     <url value="https://healthdataworks.net/hl7-fhir/ImplementationGuide/jp-rezept-medical"/>
     <version value="0.8.0"/>
@@ -872,6 +872,11 @@
                     <title value="使用するコード体系"/>
                     <generation value="markdown"/>
                 </page>
+            </page>
+            <page>
+                <nameUrl value="downloads.html"/>
+                <title value="ダウンロード"/>
+                <generation value="markdown"/>
             </page>
         </page>
         <parameter>
