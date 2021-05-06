@@ -740,7 +740,7 @@
                 <reference value="StructureDefinition/JP-REZEPT-Procedure"/>
                 <display value="診療行為情報2"/>
             </reference>
-            <name value="Procedure2"/>
+            <name value="診療行為情報"/>
             <description value="患者に対して行われた診療行為や関連するサービスの内容です。  &#xA;また、介護、リハビルやカウンセリング等も含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
@@ -749,7 +749,7 @@
                 <reference value="StructureDefinition/JP-REZEPT-Organization"/>
                 <display value="医療機関2"/>
             </reference>
-            <name value="Organization2"/>
+            <name value="医療機関"/>
             <description value="医療機関、薬局の情報です。  &#xA;診療行為、調剤に関わった企業、機関、部門や保健者等が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
@@ -821,7 +821,7 @@
                 <reference value="StructureDefinition/JP-REZEPT-MedicationAdministration"/>
                 <display value="MedicationAdministration"/>
             </reference>
-            <name value="MedicationAdministration"/>
+            <name value="日単位の投薬情報"/>
             <description value="患者が薬を服薬したり、診療行為で投与したこと等を記録します。  &#xA;これは、錠剤を飲み込む簡単な場合や、長期的な投薬である場合もあります。"/>
             <exampleBoolean value="false"/>
         </resource>
