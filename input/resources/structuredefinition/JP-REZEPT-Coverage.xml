@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="JP-REZEPT-Coverage"/>
     <meta>
-        <versionId value="64"/>
-        <lastUpdated value="2021-05-06T04:33:14.820+00:00"/>
-        <source value="#cIQvh1KjqIItusou"/>
+        <versionId value="65"/>
+        <lastUpdated value="2021-05-07T03:43:29.660+00:00"/>
+        <source value="#f7rhXeZs4IqR8kPq"/>
     </meta>
     <url value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Coverage.html"/>
     <name value="Coverage"/>
@@ -4090,7 +4090,7 @@
             <isSummary value="true"/>
             <binding>
                 <strength value="required"/>
-                <valueSet value="https://xxx/ValueSet-JP-REZEPT-BearerType"/>
+                <valueSet value="https://igs.healthdataworks.net/jp-rezept-medication/ValueSet-ValueSet-JP-REZEPT-BearerType.html"/>
             </binding>
             <mapping>
                 <identity value="v2"/>
@@ -5260,7 +5260,7 @@
             <mustSupport value="true"/>
             <binding>
                 <strength value="required"/>
-                <valueSet value="https://xxx/ValueSet-JP-REZEPT-BearerType"/>
+                <valueSet value="https://igs.healthdataworks.net/jp-rezept-medication/ValueSet-ValueSet-JP-REZEPT-BearerType.html"/>
             </binding>
             <mapping>
                 <identity value="JP-REZEPT-MEDICAL-Mapping"/>

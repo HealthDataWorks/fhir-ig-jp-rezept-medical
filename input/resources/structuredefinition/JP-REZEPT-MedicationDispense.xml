@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="JP-REZEPT-MedicationDispense"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-05-06T04:41:47.585+00:00"/>
-        <source value="#vJHPdD9RYBbNVac8"/>
+        <versionId value="7"/>
+        <lastUpdated value="2021-05-07T03:52:10.384+00:00"/>
+        <source value="#UZDN7yHMCGouQTkK"/>
     </meta>
     <url value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-MedicationDispense.html"/>
     <name value="MedicationDispense"/>
@@ -283,11 +283,27 @@
             </base>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionMedicationDispenseRequestDate"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionMedicationDispenseRequestDate.html"/>
             </type>
+            <condition value="ele-1"/>
+            <constraint>
+                <key value="ele-1"/>
+                <severity value="error"/>
+                <human value="All FHIR elements must have a @value or children"/>
+                <expression value="hasValue() or (children().count() &gt; id.count())"/>
+                <xpath value="@value|f:*|h:div"/>
+                <source value="Element"/>
+            </constraint>
+            <constraint>
+                <key value="ext-1"/>
+                <severity value="error"/>
+                <human value="Must have either extensions or value[x], not both"/>
+                <expression value="extension.exists() != value.exists()"/>
+                <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
+                <source value="Extension"/>
+            </constraint>
             <mustSupport value="true"/>
             <isModifier value="false"/>
-            <isSummary value="false"/>
         </element>
         <element id="MedicationDispense.extension:addition">
             <path value="MedicationDispense.extension"/>
@@ -303,11 +319,27 @@
             </base>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionMedicationDispenseAddition"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionMedicationDispenseAddition.html"/>
             </type>
+            <condition value="ele-1"/>
+            <constraint>
+                <key value="ele-1"/>
+                <severity value="error"/>
+                <human value="All FHIR elements must have a @value or children"/>
+                <expression value="hasValue() or (children().count() &gt; id.count())"/>
+                <xpath value="@value|f:*|h:div"/>
+                <source value="Element"/>
+            </constraint>
+            <constraint>
+                <key value="ext-1"/>
+                <severity value="error"/>
+                <human value="Must have either extensions or value[x], not both"/>
+                <expression value="extension.exists() != value.exists()"/>
+                <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
+                <source value="Extension"/>
+            </constraint>
             <mustSupport value="true"/>
             <isModifier value="false"/>
-            <isSummary value="false"/>
         </element>
         <element id="MedicationDispense.modifierExtension">
             <path value="MedicationDispense.modifierExtension"/>
@@ -1791,7 +1823,7 @@
             <isSummary value="true"/>
             <binding>
                 <strength value="required"/>
-                <valueSet value="https://xxx/ValueSet-JP-REZEPT-DosageForm"/>
+                <valueSet value="https://igs.healthdataworks.net/jp-rezept-medication/ValueSet-ValueSet-JP-REZEPT-DosageForm.html"/>
             </binding>
             <mapping>
                 <identity value="v2"/>
@@ -3559,7 +3591,7 @@
             <isSummary value="true"/>
             <binding>
                 <strength value="required"/>
-                <valueSet value="https://xxx/ValueSet-JP-REZEPT-MedicationUsage"/>
+                <valueSet value="https://igs.healthdataworks.net/jp-rezept-medication/ValueSet-ValueSet-JP-REZEPT-MedicationUsage.html"/>
             </binding>
             <mapping>
                 <identity value="rim"/>
@@ -4275,7 +4307,7 @@
             <definition value="処方箋発行日です。"/>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionMedicationDispenseRequestDate"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionMedicationDispenseRequestDate.html"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -4286,7 +4318,7 @@
             <definition value="調剤の加算コードです。"/>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionMedicationDispenseAddition"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionMedicationDispenseAddition.html"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -4417,7 +4449,7 @@
             <mustSupport value="true"/>
             <binding>
                 <strength value="required"/>
-                <valueSet value="https://xxx/ValueSet-JP-REZEPT-DosageForm"/>
+                <valueSet value="https://igs.healthdataworks.net/jp-rezept-medication/ValueSet-ValueSet-JP-REZEPT-DosageForm.html"/>
             </binding>
             <mapping>
                 <identity value="JP-REZEPT-MEDICATION-Mapping"/>
@@ -4531,7 +4563,7 @@
             <mustSupport value="true"/>
             <binding>
                 <strength value="required"/>
-                <valueSet value="https://xxx/ValueSet-JP-REZEPT-MedicationUsage"/>
+                <valueSet value="https://igs.healthdataworks.net/jp-rezept-medication/ValueSet-ValueSet-JP-REZEPT-MedicationUsage.html"/>
             </binding>
             <mapping>
                 <identity value="JP-REZEPT-MEDICATION-Mapping"/>

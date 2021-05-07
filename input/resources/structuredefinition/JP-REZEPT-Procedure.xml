@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="JP-REZEPT-Procedure"/>
     <meta>
-        <versionId value="20"/>
-        <lastUpdated value="2021-05-06T04:39:44.962+00:00"/>
-        <source value="#CkKW262OTC93caWK"/>
+        <versionId value="21"/>
+        <lastUpdated value="2021-05-07T01:02:26.828+00:00"/>
+        <source value="#jpYLelLIppfyXrsc"/>
     </meta>
     <url value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Procedure.html"/>
     <name value="Procedure"/>
@@ -293,11 +293,27 @@
             </base>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionProcedureQuantity"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureQuantity.html"/>
             </type>
+            <condition value="ele-1"/>
+            <constraint>
+                <key value="ele-1"/>
+                <severity value="error"/>
+                <human value="All FHIR elements must have a @value or children"/>
+                <expression value="hasValue() or (children().count() &gt; id.count())"/>
+                <xpath value="@value|f:*|h:div"/>
+                <source value="Element"/>
+            </constraint>
+            <constraint>
+                <key value="ext-1"/>
+                <severity value="error"/>
+                <human value="Must have either extensions or value[x], not both"/>
+                <expression value="extension.exists() != value.exists()"/>
+                <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
+                <source value="Extension"/>
+            </constraint>
             <mustSupport value="true"/>
             <isModifier value="false"/>
-            <isSummary value="false"/>
         </element>
         <element id="Procedure.extension:numberOfTimes">
             <path value="Procedure.extension"/>
@@ -313,11 +329,27 @@
             </base>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionProcedureNumberOfTimes"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureNumberOfTimes.html"/>
             </type>
+            <condition value="ele-1"/>
+            <constraint>
+                <key value="ele-1"/>
+                <severity value="error"/>
+                <human value="All FHIR elements must have a @value or children"/>
+                <expression value="hasValue() or (children().count() &gt; id.count())"/>
+                <xpath value="@value|f:*|h:div"/>
+                <source value="Element"/>
+            </constraint>
+            <constraint>
+                <key value="ext-1"/>
+                <severity value="error"/>
+                <human value="Must have either extensions or value[x], not both"/>
+                <expression value="extension.exists() != value.exists()"/>
+                <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
+                <source value="Extension"/>
+            </constraint>
             <mustSupport value="true"/>
             <isModifier value="false"/>
-            <isSummary value="false"/>
         </element>
         <element id="Procedure.extension:addition">
             <path value="Procedure.extension"/>
@@ -333,11 +365,27 @@
             </base>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionProcedureAddition"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureAddition.html"/>
             </type>
+            <condition value="ele-1"/>
+            <constraint>
+                <key value="ele-1"/>
+                <severity value="error"/>
+                <human value="All FHIR elements must have a @value or children"/>
+                <expression value="hasValue() or (children().count() &gt; id.count())"/>
+                <xpath value="@value|f:*|h:div"/>
+                <source value="Element"/>
+            </constraint>
+            <constraint>
+                <key value="ext-1"/>
+                <severity value="error"/>
+                <human value="Must have either extensions or value[x], not both"/>
+                <expression value="extension.exists() != value.exists()"/>
+                <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
+                <source value="Extension"/>
+            </constraint>
             <mustSupport value="true"/>
             <isModifier value="false"/>
-            <isSummary value="false"/>
         </element>
         <element id="Procedure.modifierExtension">
             <path value="Procedure.modifierExtension"/>
@@ -2540,7 +2588,7 @@
             <definition value="診療行為の使用量データです。"/>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionProcedureQuantity"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureQuantity.html"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -2551,7 +2599,7 @@
             <definition value="診療行為の回数です。"/>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionProcedureNumberOfTimes"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureNumberOfTimes.html"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -2562,7 +2610,7 @@
             <definition value="診療行為の加算です。"/>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionProcedureAddition"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureAddition.html"/>
             </type>
             <mustSupport value="true"/>
         </element>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="JP-REZEPT-Device"/>
     <meta>
-        <versionId value="29"/>
-        <lastUpdated value="2021-05-06T04:51:25.217+00:00"/>
-        <source value="#ztpqgLju5MeNKvGX"/>
+        <versionId value="30"/>
+        <lastUpdated value="2021-05-07T00:56:46.841+00:00"/>
+        <source value="#JruHX0caROdO1kVT"/>
     </meta>
     <url value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Device.html"/>
     <name value="Device"/>
@@ -291,11 +291,27 @@
             </base>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionDeviceUnitPrice"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceUnitPrice.html"/>
             </type>
+            <condition value="ele-1"/>
+            <constraint>
+                <key value="ele-1"/>
+                <severity value="error"/>
+                <human value="All FHIR elements must have a @value or children"/>
+                <expression value="hasValue() or (children().count() &gt; id.count())"/>
+                <xpath value="@value|f:*|h:div"/>
+                <source value="Element"/>
+            </constraint>
+            <constraint>
+                <key value="ext-1"/>
+                <severity value="error"/>
+                <human value="Must have either extensions or value[x], not both"/>
+                <expression value="extension.exists() != value.exists()"/>
+                <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
+                <source value="Extension"/>
+            </constraint>
             <mustSupport value="true"/>
             <isModifier value="false"/>
-            <isSummary value="false"/>
         </element>
         <element id="Device.extension:quantity">
             <path value="Device.extension"/>
@@ -312,11 +328,27 @@
             </base>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionDeviceQuantity"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceQuantity.html"/>
             </type>
+            <condition value="ele-1"/>
+            <constraint>
+                <key value="ele-1"/>
+                <severity value="error"/>
+                <human value="All FHIR elements must have a @value or children"/>
+                <expression value="hasValue() or (children().count() &gt; id.count())"/>
+                <xpath value="@value|f:*|h:div"/>
+                <source value="Element"/>
+            </constraint>
+            <constraint>
+                <key value="ext-1"/>
+                <severity value="error"/>
+                <human value="Must have either extensions or value[x], not both"/>
+                <expression value="extension.exists() != value.exists()"/>
+                <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
+                <source value="Extension"/>
+            </constraint>
             <mustSupport value="true"/>
             <isModifier value="false"/>
-            <isSummary value="false"/>
         </element>
         <element id="Device.extension:numberOfTimes">
             <path value="Device.extension"/>
@@ -333,11 +365,27 @@
             </base>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionDeviceNumberOfTimes"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceNumberOfTimes.html"/>
             </type>
+            <condition value="ele-1"/>
+            <constraint>
+                <key value="ele-1"/>
+                <severity value="error"/>
+                <human value="All FHIR elements must have a @value or children"/>
+                <expression value="hasValue() or (children().count() &gt; id.count())"/>
+                <xpath value="@value|f:*|h:div"/>
+                <source value="Element"/>
+            </constraint>
+            <constraint>
+                <key value="ext-1"/>
+                <severity value="error"/>
+                <human value="Must have either extensions or value[x], not both"/>
+                <expression value="extension.exists() != value.exists()"/>
+                <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
+                <source value="Extension"/>
+            </constraint>
             <mustSupport value="true"/>
             <isModifier value="false"/>
-            <isSummary value="false"/>
         </element>
         <element id="Device.modifierExtension">
             <path value="Device.modifierExtension"/>
@@ -2365,7 +2413,7 @@
             <comment value="特定器材マスタの金額種別が「5:%加算」「9:乗算割合」の場合、設定しません。&#xA;単価が設定されていない場合、設定しません。"/>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionDeviceUnitPrice"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceUnitPrice.html"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -2377,7 +2425,7 @@
             <comment value="特定器材マスタの金額種別が「9:乗算割合」の場合、設定しません。&#xA;使用量が入力されていない場合、設定しません。"/>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionDeviceQuantity"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceQuantity.html"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -2389,7 +2437,7 @@
             <comment value="１~３１日の情報がある場合に設定しません。"/>
             <type>
                 <code value="Extension"/>
-                <profile value="https://xxx/StructureDefinition/JP-REZEPT-ExtensionDeviceNumberOfTimes"/>
+                <profile value="https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceNumberOfTimes.html"/>
             </type>
             <mustSupport value="true"/>
         </element>
