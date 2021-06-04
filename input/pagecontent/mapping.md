@@ -36,7 +36,7 @@
 <tr><td>(4)患者</td><td>患者氏名、生年月日</td><td>-</td></tr>
 <tr><td>(5)医療機関</td><td>医科レセプトを作成した保険医療機関の情報</td><td>-</td></tr>
 <tr><td>(6)傷病名</td><td>診察された傷病名</td><td>-</td></tr>
-<tr><td>(7)診療情報</td><td>診療行為/処方された薬剤/使用された器材の情報</td><td rowspan="2">請求項目の内容に応じて<br /><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00027.html">令和2年度診療報酬改定について</a>の<br />医科点数表に点数が規定されています。</td></tr>
+<tr><td>(7)診療情報</td><td>診療行為/処方された薬剤/使用された器材の情報</td><td rowspan="2">請求項目の内容に応じて<br /><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00027.html">令和2年度診療報酬改定について</a>[診療報酬の算定方法の一部を改正する件(告示)・令和2年 厚生労働省告示第57号・別表第1（医科点数表）]に点数が<br />規定されています。</td></tr>
 <tr><td>(8)点数</td><td>診療報酬点数の合計</td><!-- td></td --></tr>
 </table>
 
