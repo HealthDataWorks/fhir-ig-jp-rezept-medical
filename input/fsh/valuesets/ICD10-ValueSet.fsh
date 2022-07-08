@@ -2,9 +2,6 @@ ValueSet: ICD10
 Id: ValueSet-JP-REZEPT-ICD10
 Title: "ICD10コード"
 Description: "このバリューセットには、ICD10コードで定義されるすべての傷病名が含まれます。"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2021-05-07T04:18:54.550+00:00"
-* ^meta.source = "#3BrXGcyhlNbP1Oj0"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medical/ValueSet-ValueSet-JP-REZEPT-ICD10.html"
 * ^identifier.use = #official
 * ^identifier.system = "urn:ietf:rfc:3986"

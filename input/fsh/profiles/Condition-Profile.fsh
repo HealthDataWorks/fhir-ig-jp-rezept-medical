@@ -3,9 +3,6 @@ Parent: $Condition
 Id: JP-REZEPT-Condition
 Title: "患者の傷病記録"
 Description: "患者の傷病記録、診断内容、またはその他の状況や問題点、または臨床の概念事項を示します。"
-* ^meta.versionId = "29"
-* ^meta.lastUpdated = "2021-06-01T11:01:45.510+00:00"
-* ^meta.source = "#rKLiZ4s4xP0gW2l0"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition-JP-REZEPT-Condition.html"
 * ^status = #draft
 * . ^short = "患者の傷病記録"

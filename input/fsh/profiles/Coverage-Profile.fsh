@@ -4,9 +4,6 @@ Id: JP-REZEPT-Coverage
 Title: "保険・被保険者情報"
 Description: """保険情報、公費情報です。  
 医療サービスや調剤等の請求額と自己負担金の両方が含まれます。"""
-* ^meta.versionId = "113"
-* ^meta.lastUpdated = "2021-06-01T10:48:08.564+00:00"
-* ^meta.source = "#M3jz2Hm6EBsZ7IgC"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Coverage.html"
 * ^status = #draft
 * . ^short = "保険情報、公費情報"

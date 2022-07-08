@@ -4,9 +4,6 @@ Id: JP-REZEPT-Procedure
 Title: "診療行為情報"
 Description: """患者に対して行われた診療行為や関連するサービスの内容です。  
 また、介護、リハビルやカウンセリング等も含まれます。"""
-* ^meta.versionId = "22"
-* ^meta.lastUpdated = "2021-06-01T11:08:38.948+00:00"
-* ^meta.source = "#lb3ToW8999VAFW9g"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Procedure.html"
 * ^status = #active
 * id MS

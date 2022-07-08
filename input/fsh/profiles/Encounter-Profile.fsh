@@ -4,9 +4,6 @@ Id: JP-REZEPT-Encounter
 Title: "入院、外来情報"
 Description: """入院、外来を記録した情報です。  
 医療サービスの提供者と患者の間を繋ぐ情報を示します。"""
-* ^meta.versionId = "16"
-* ^meta.lastUpdated = "2021-06-01T11:04:08.816+00:00"
-* ^meta.source = "#aP7Vaznhz7zuczFe"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition/JP-REZEPT-Encounter.html"
 * ^status = #draft
 * . ^short = "入院、外来情報"

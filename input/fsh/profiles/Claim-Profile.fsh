@@ -4,9 +4,6 @@ Id: JP-REZEPT-Claim
 Title: "レセプト情報"
 Description: """レセプト(医科レセプト、DPCレセプト、歯科レセプト、調剤レセプト)情報です。  
 医療提供者は、患者の診療・治療に掛かった医療サービス内容や調剤情報を医療費の請求のために保険者に通知する情報を発行します。"""
-* ^meta.versionId = "51"
-* ^meta.lastUpdated = "2021-06-01T11:01:04.691+00:00"
-* ^meta.source = "#2gChQM8SyNYCSTsN"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Claim.html"
 * ^status = #draft
 * . ^short = "レセプト情報"

@@ -4,9 +4,6 @@ Id: JP-REZEPT-Patient
 Title: "患者情報"
 Description: """患者の情報です。  
 医療行為や関連サービスを受けている個人も含まれます。"""
-* ^meta.versionId = "152"
-* ^meta.lastUpdated = "2021-06-01T10:55:04.128+00:00"
-* ^meta.source = "#WbIoBnZLIahXMakV"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Patient.html"
 * ^status = #draft
 * . ^short = "患者情報"

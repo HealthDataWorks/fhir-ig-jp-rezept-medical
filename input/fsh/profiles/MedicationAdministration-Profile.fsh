@@ -4,9 +4,6 @@ Id: JP-REZEPT-MedicationAdministration
 Title: "日単位の投薬記録"
 Description: """患者が薬を服薬したり、診療行為で投与したこと等を記録します。  
 これは、錠剤を飲み込む簡単な場合や、長期的な投薬である場合もあります。"""
-* ^meta.versionId = "43"
-* ^meta.lastUpdated = "2021-06-01T11:07:14.926+00:00"
-* ^meta.source = "#oseyBwzMNVhWh63T"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition/JP-REZEPT-MedicationAdministration.html"
 * ^status = #draft
 * . ^short = "投薬記録"

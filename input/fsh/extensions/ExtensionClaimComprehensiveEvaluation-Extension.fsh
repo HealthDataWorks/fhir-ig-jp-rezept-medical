@@ -2,9 +2,6 @@ Extension: ExtensionClaimComprehensiveEvaluation
 Id: JP-REZEPT-ExtensionClaimComprehensiveEvaluation
 Title: "包括評価の拡張情報"
 Description: "包括評価の拡張情報の情報です。"
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2021-05-07T03:56:01.661+00:00"
-* ^meta.source = "#UXy138VhT6CxYdga"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionClaimComprehensiveEvaluation"
 * ^status = #draft
 * ^kind = #resource

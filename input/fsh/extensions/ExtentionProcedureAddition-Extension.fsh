@@ -2,9 +2,6 @@ Extension: ExtentionProcedureAddition
 Id: JP-REZEPT-ExtensionProcedureAddition
 Title: "診療行為の加算情報"
 Description: "診療行為の加算情報です。"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2021-05-06T04:44:06.276+00:00"
-* ^meta.source = "#jIx2iJgN4vj0XJXF"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureAddition.html"
 * ^status = #draft
 * ^kind = #resource

@@ -3,9 +3,6 @@ Parent: $Device
 Id: JP-REZEPT-Device
 Title: "日単位の特定器材情報"
 Description: "医療行為を通じて使用された器材の情報です。"
-* ^meta.versionId = "31"
-* ^meta.lastUpdated = "2021-06-01T11:02:27.936+00:00"
-* ^meta.source = "#rt8TitXQ1myiaybV"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Device.html"
 * ^status = #draft
 * . ^short = "医療行為を通じて使用された器材の情報です。"

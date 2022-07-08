@@ -2,9 +2,6 @@ Extension: ExtensionPatientNameKanji
 Id: JP-REZEPT-ExtensionPatientNameKanji
 Title: "漢字表記"
 Description: "漢字表記であることを⽰す。"
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2021-05-20T14:33:41.641+00:00"
-* ^meta.source = "#GREUeHEAcBl7h1ed"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionPatientNameKanji"
 * ^kind = #resource
 * ^context.type = #fhirpath

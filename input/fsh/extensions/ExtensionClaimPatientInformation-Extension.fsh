@@ -2,9 +2,6 @@ Extension: ExtensionClaimPatientInformation
 Id: JP-REZEPT-ExtensionClaimPatientInformation
 Title: "患者の拡張情報"
 Description: "患者の拡張情報です。"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2021-05-06T04:35:43.134+00:00"
-* ^meta.source = "#TigzgYDTwlt0FlAf"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionClaimPatientInformation.html"
 * ^status = #draft
 * ^kind = #resource

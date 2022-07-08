@@ -2,9 +2,6 @@ Extension: ExtensionClaimInsurerInformation
 Id: JP-REZEPT-ExtensionClaimInsurerInformation
 Title: "保険会社の拡張情報"
 Description: "保険会社の拡張情報です。"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2021-05-06T04:35:01.869+00:00"
-* ^meta.source = "#tIH4Z9pH4Sqzgilv"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionClaimInsurerInformation.html"
 * ^status = #draft
 * ^kind = #resource
