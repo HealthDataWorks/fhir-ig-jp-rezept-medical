@@ -3,7 +3,7 @@ Id: JP-REZEPT-ExtensionPatientNameKanji
 Title: "漢字表記"
 Description: "漢字表記であることを⽰す。"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionPatientNameKanji"
-* ^kind = #resource
+* ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Patinet.name:kanji"
 * . MS

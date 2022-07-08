@@ -4,7 +4,6 @@ Title: "患者の拡張情報"
 Description: "患者の拡張情報です。"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionClaimPatientInformation.html"
 * ^status = #draft
-* ^kind = #resource
 * ^context.type = #element
 * ^context.expression = "Claim"
 * . ^short = "患者の拡張情報"

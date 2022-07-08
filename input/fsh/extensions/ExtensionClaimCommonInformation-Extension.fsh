@@ -4,7 +4,6 @@ Title: "レセプト情報の共通の拡張情報"
 Description: "レセプト情報の共通の拡張情報です。"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionClaimCommonInformation"
 * ^status = #draft
-* ^kind = #resource
 * ^context.type = #fhirpath
 * ^context.expression = "Claim"
 * . ^short = "レセプト情報の共通の拡張情報"

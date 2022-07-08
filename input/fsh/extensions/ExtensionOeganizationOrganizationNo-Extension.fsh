@@ -3,7 +3,7 @@ Id: JP-REZEPT-ExtensionOeganizationOrganizationNo
 Title: "保険医療機関コード"
 Description: "保険医療機関番号です。７桁で指定します。"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionOeganizationOrganizationNo"
-* ^kind = #resource
+* ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Organization"
 * . MS

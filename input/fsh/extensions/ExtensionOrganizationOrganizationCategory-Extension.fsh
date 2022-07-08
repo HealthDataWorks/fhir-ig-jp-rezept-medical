@@ -2,7 +2,7 @@ Extension: ExtensionOrganizationOrganizationCategory
 Id: JP-REZEPT-ExtensionOrganizationOrganizationCategory
 Title: "点数表コード"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionOrganizationOrganizationCategory"
-* ^kind = #resource
+* ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Organization"
 * . MS

@@ -3,7 +3,7 @@ Id: JP-REZEPT-ExtensionPatientNameKana
 Title: "カナ表記"
 Description: "カナ表記であることを⽰します。"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionPatientNameKana"
-* ^kind = #resource
+* ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Patient.name:kana"
 * . MS

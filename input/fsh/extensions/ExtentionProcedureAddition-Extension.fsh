@@ -4,7 +4,6 @@ Title: "診療行為の加算情報"
 Description: "診療行為の加算情報です。"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureAddition.html"
 * ^status = #draft
-* ^kind = #resource
 * ^context.type = #fhirpath
 * ^context.expression = "Procedure"
 * . ^short = "診療行為の加算情報"

@@ -4,7 +4,6 @@ Title: "主病名があるかどうか"
 Description: "主病名があるかどうかのフラグです。"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition/JP-REZEPT-ExtensionConditionMajorDisease.html"
 * ^status = #draft
-* ^kind = #resource
 * ^context.type = #fhirpath
 * ^context.expression = "Condition"
 * value[x] only boolean

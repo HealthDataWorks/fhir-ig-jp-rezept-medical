@@ -4,7 +4,6 @@ Title: "調剤の加算情報"
 Description: "調剤の加算情報です。"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionMedicationDispenseAddition.html"
 * ^status = #draft
-* ^kind = #resource
 * ^context.type = #fhirpath
 * ^context.expression = "MedicationDispense"
 * . ^short = "調剤の加算情報"

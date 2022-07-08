@@ -4,7 +4,6 @@ Title: "特定器材の単価"
 Description: "特定器材の単価です。"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceUnitPrice.html"
 * ^status = #draft
-* ^kind = #resource
 * ^context.type = #fhirpath
 * ^context.expression = "Device"
 * . ^short = "特定器材の単価"

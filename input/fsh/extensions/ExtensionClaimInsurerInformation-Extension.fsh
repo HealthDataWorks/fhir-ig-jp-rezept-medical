@@ -4,7 +4,6 @@ Title: "保険会社の拡張情報"
 Description: "保険会社の拡張情報です。"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionClaimInsurerInformation.html"
 * ^status = #draft
-* ^kind = #resource
 * ^context.type = #fhirpath
 * ^context.expression = "Claim"
 * . ^short = "保険会社の拡張情報"

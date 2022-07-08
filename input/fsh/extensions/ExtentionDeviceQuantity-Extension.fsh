@@ -4,7 +4,6 @@ Title: "特定器材の使用量"
 Description: "特定器材の使用量です。"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceQuantity.html"
 * ^status = #draft
-* ^kind = #resource
 * ^context.type = #fhirpath
 * ^context.expression = "Device"
 * . ^short = "特定器材の使用量"

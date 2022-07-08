@@ -4,7 +4,6 @@ Title: "診療行為の回数"
 Description: "診療行為の回数です。"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureNumberOfTimes.html"
 * ^status = #draft
-* ^kind = #resource
 * ^context.type = #fhirpath
 * ^context.expression = "Procedure"
 * . ^short = "診療行為の回数"

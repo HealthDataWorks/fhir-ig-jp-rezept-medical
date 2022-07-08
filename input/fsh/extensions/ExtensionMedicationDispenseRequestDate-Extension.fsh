@@ -4,7 +4,6 @@ Title: "処方箋発行日"
 Description: "処方箋発行日です。"
 * ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionMedicationDispenseRequestDate.html"
 * ^status = #draft
-* ^kind = #resource
 * ^context.type = #fhirpath
 * ^context.expression = "MedicationDispense"
 * . ^short = "処方箋発行日"
