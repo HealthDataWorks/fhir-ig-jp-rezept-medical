@@ -1,5 +1,5 @@
-Mapping: P-REZEPT-MEDICAL-Mapping
-Id: P-REZEPT-MEDICAL-Mapping
+Mapping: JP-REZEPT-MEDICAL-Mapping
+Id: JP-REZEPT-MEDICAL-Mapping
 Title: "医科"
 Description: "レセプト電算処理システムの請求に係る記録条件仕様(医科用)をFHIRにマッピングします。"
 Source: Procedure
