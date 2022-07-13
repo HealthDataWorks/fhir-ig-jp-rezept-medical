@@ -25,6 +25,30 @@ Alias: $JpRezeptPatient = https://igs.healthdataworks.net/jp-rezept-medication/S
 Alias: $JpRezeptProcedure = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Procedure.html
 
 // Extention
+Alias: $JpRezeptExtensionCoverageInsuredPersonNo = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionCoverageInsuredPersonNo
+Alias: $JpRezeptExtensionCoverageInsuredPersonSymbol = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionCoverageInsuredPersonSymbol
+Alias: $JpRezeptExtensionClaimCommonInformation = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionClaimCommonInformation
+Alias: $JpRezeptExtensionClaimComprehensiveEvaluation = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionClaimComprehensiveEvaluation
+Alias: $JpRezeptExtensionClaimInsurerInformation = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionClaimInsurerInformation.html
+Alias: $JpRezeptExtensionClaimPatientInformation = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionClaimPatientInformation.html
+Alias: $JpRezeptExtensionConditionMajorDisease = https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition/JP-REZEPT-ExtensionConditionMajorDisease.html
+Alias: $JpRezeptExtensionConditionNumberOfComorbidities = https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition-JP-REZEPT-ExtensionConditionNumberOfComorbidities.html
+Alias: $JpRezeptExtensionConditionOutcome = https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition-JP-REZEPT-ExtensionConditionOutcome.html
+Alias: $JpRezeptExtensionMedicationDispenseRequestDate = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionMedicationDispenseRequestDate.html
+Alias: $JpRezeptExtensionOeganizationOrganizationNo = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionOeganizationOrganizationNo
+Alias: $JpRezeptExtensionOrganizationOrganizationCategory = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionOrganizationOrganizationCategory
+Alias: $JpRezeptExtensionOrganizationPrefectureNo = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionOrganizationPrefectureNo
+Alias: $JpRezeptExtensionPatientContactPosition = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionPatientContactPosition
+Alias: $JpRezeptExtensionPatientNameKana = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionPatientNameKana
+Alias: $JpRezeptExtensionPatientNameKanji = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionPatientNameKanji
+Alias: $JpRezeptExtensionPatientNameRoma = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionPatientNameRoma
+Alias: $JpRezeptExtensionProcedureQuantity = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureQuantity.html
+Alias: $JpRezeptExtensionDeviceNumberOfTimes = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceNumberOfTimes.html
+Alias: $JpRezeptExtensionDeviceQuantity = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceQuantity.html
+Alias: $JpRezeptExtensionDeviceUnitPrice = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceUnitPrice.html
+Alias: $JpRezeptExtensionMedicationDispenseAddition = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionMedicationDispenseAddition.html
+Alias: $JpRezeptExtensionProcedureAddition = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureAddition.html
+Alias: $JpRezeptExtensionProcedureNumberOfTimes = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureNumberOfTimes.html
 
 // CodeSystem
 Alias: $CodeSystemBearerType = https://igs.healthdataworks.net/jp-rezept-medication/CodeSystem-CodeSystem-JP-REZEPT-BearerType.html

@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionPatientContactPosition
 Id: JP-REZEPT-ExtensionPatientContactPosition
 Title: "役割、役職情報"
 Description: "ローマ字表記であることを⽰す。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionPatientContactPosition"
+* ^url = $JpRezeptExtensionPatientContactPosition
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Patinet.name:kanji"

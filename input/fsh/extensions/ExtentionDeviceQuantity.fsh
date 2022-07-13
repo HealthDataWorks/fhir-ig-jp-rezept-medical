@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionDeviceQuantity
 Id: JP-REZEPT-ExtensionDeviceQuantity
 Title: "特定器材の使用量"
 Description: "特定器材の使用量です。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceQuantity.html"
+* ^url = $JpRezeptExtensionDeviceQuantity
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Device"

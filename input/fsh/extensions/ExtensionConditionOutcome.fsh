@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionConditionOutcome
 Id: JP-REZEPT-ExtensionConditionOutcome
 Title: "転帰区分コード"
 Description: "転帰区分コードです。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition-JP-REZEPT-ExtensionConditionOutcome.html"
+* ^url = $JpRezeptExtensionConditionOutcome
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Condition"

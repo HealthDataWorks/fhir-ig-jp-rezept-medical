@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionProcedureQuantity
 Id: JP-REZEPT-ExtensionProcedureQuantity
 Title: "診療行為の使用量"
 Description: "診療行為の使用量です。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureQuantity.html"
+* ^url = $JpRezeptExtensionProcedureQuantity
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Procedure"

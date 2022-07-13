@@ -3,7 +3,7 @@ Id: JP-REZEPT-ExtensionCoverageInsuredPersonNo
 Title: "保険情報の被保険者番号"
 Description: """被保険者証番号を表す拡張 InsuredPersonNumber です。保険種別が「1:医保」、「2:国保」、「7:後期⾼齢者」の場合に記録します。
 それ以外の場合は、本拡張要素は出現しません。"""
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionCoverageInsuredPersonNo"
+* ^url = $JpRezeptExtensionCoverageInsuredPersonNo
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Coverage"

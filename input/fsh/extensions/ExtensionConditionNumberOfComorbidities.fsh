@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionConditionNumberOfComorbidities
 Id: JP-REZEPT-ExtensionConditionNumberOfComorbidities
 Title: "併存傷病名数"
 Description: "併存傷病名数です。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition-JP-REZEPT-ExtensionConditionNumberOfComorbidities.html"
+* ^url = $JpRezeptExtensionConditionNumberOfComorbidities
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Condition"

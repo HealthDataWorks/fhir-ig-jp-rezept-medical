@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionDeviceUnitPrice
 Id: JP-REZEPT-ExtensionDeviceUnitPrice
 Title: "特定器材の単価"
 Description: "特定器材の単価です。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceUnitPrice.html"
+* ^url = $JpRezeptExtensionDeviceUnitPrice
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Device"

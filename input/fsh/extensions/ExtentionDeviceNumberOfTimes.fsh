@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionDeviceNumberOfTimes
 Id: JP-REZEPT-ExtensionDeviceNumberOfTimes
 Title: "特定機材の使用回数"
 Description: "特定機材の使用回数です。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionDeviceNumberOfTimes.html"
+* ^url = $JpRezeptExtensionDeviceNumberOfTimes
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Device"

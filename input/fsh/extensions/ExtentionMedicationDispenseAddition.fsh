@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionMedicationDispenseAddition
 Id: JP-REZEPT-ExtensionMedicationDispenseAddition
 Title: "調剤の加算情報"
 Description: "調剤の加算情報です。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionMedicationDispenseAddition.html"
+* ^url = $JpRezeptExtensionMedicationDispenseAddition
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "MedicationDispense"

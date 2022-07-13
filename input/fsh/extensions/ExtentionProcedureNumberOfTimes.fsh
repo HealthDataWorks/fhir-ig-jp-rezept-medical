@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionProcedureNumberOfTimes
 Id: JP-REZEPT-ExtensionProcedureNumberOfTimes
 Title: "診療行為の回数"
 Description: "診療行為の回数です。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionProcedureNumberOfTimes.html"
+* ^url = $JpRezeptExtensionProcedureNumberOfTimes
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Procedure"

@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionClaimCommonInformation
 Id: JP-REZEPT-ExtensionClaimCommonInformation
 Title: "レセプト情報の共通の拡張情報"
 Description: "レセプト情報の共通の拡張情報です。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionClaimCommonInformation"
+* ^url = $JpRezeptExtensionClaimCommonInformation
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Claim"

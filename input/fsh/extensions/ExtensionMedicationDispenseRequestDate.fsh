@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionMedicationDispenseRequestDate
 Id: JP-REZEPT-ExtensionMedicationDispenseRequestDate
 Title: "処方箋発行日"
 Description: "処方箋発行日です。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionMedicationDispenseRequestDate.html"
+* ^url = $JpRezeptExtensionMedicationDispenseRequestDate
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "MedicationDispense"

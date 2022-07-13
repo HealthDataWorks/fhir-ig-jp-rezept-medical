@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionPatientNameRoma
 Id: JP-REZEPT-ExtensionPatientNameRoma
 Title: "ローマ字表記"
 Description: "ローマ字表記であることを⽰す。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionPatientNameRoma"
+* ^url = $JpRezeptExtensionPatientNameRoma
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Patinet.name:kanji"

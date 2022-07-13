@@ -3,7 +3,7 @@ Id: JP-REZEPT-ExtensionCoverageInsuredPersonSymbol
 Title: "保険情報の被保険者記号"
 Description: """被保険者証記号を表す拡張 InsuredPersonSymbol です。保険種別が「1:医保」、「2:国保」の場合に記録します。
 被保険者証記号がない場合は、本拡張要素は出現しません。"""
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionCoverageInsuredPersonSymbol"
+* ^url = $JpRezeptExtensionCoverageInsuredPersonSymbol
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Coverage"

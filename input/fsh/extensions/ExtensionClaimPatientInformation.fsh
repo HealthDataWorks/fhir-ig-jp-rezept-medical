@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionClaimPatientInformation
 Id: JP-REZEPT-ExtensionClaimPatientInformation
 Title: "患者の拡張情報"
 Description: "患者の拡張情報です。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionClaimPatientInformation.html"
+* ^url = $JpRezeptExtensionClaimPatientInformation
 * ^status = #draft
 * ^context.type = #element
 * ^context.expression = "Claim"

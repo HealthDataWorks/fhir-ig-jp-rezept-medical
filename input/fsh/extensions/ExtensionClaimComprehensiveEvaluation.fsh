@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionClaimComprehensiveEvaluation
 Id: JP-REZEPT-ExtensionClaimComprehensiveEvaluation
 Title: "包括評価の拡張情報"
 Description: "包括評価の拡張情報の情報です。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionClaimComprehensiveEvaluation"
+* ^url = $JpRezeptExtensionClaimComprehensiveEvaluation
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Claim"

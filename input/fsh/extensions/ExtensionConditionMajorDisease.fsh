@@ -2,7 +2,7 @@ Extension: JpRezeptExtensionConditionMajorDisease
 Id: JP-REZEPT-ExtensionConditionMajorDisease
 Title: "主病名があるかどうか"
 Description: "主病名があるかどうかのフラグです。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition/JP-REZEPT-ExtensionConditionMajorDisease.html"
+* ^url = $JpRezeptExtensionConditionMajorDisease
 * ^status = #draft
 * ^context.type = #fhirpath
 * ^context.expression = "Condition"
