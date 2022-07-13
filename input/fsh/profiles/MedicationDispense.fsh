@@ -1,4 +1,4 @@
-Profile: MedicationDispense
+Profile: JpRezeptMedicationDispense
 Parent: $MedicationDispense
 Id: JP-REZEPT-MedicationDispense
 Title: "調剤情報"
@@ -28,8 +28,8 @@ Description: """調剤情報です。
 * extension ^short = "調剤の拡張情報"
 * extension ^definition = "調剤の拡張情報です。"
 * extension contains
-    ExtensionMedicationDispenseRequestDate named requestDate 0..* MS and
-    ExtentionMedicationDispenseAddition named addition 0..* MS
+    JpRezeptExtensionMedicationDispenseRequestDate named requestDate 0..* MS and
+    JpRezeptExtensionMedicationDispenseAddition named addition 0..* MS
 * extension[requestDate] ^short = "処方箋発行日"
 * extension[requestDate] ^definition = "処方箋発行日です。"
 * extension[addition] ^short = "調剤の加算コード"

@@ -1,4 +1,4 @@
-Profile: Encounter
+Profile: JpRezeptEncounter
 Parent: $Encounter
 Id: JP-REZEPT-Encounter
 Title: "入院、外来情報"

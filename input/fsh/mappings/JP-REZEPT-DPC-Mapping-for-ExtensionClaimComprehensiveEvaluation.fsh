@@ -2,7 +2,7 @@ Mapping: JP-REZEPT-DPC-Mapping-for-ExtensionClaimComprehensiveEvaluation
 Id: JP-REZEPT-DPC-Mapping
 Title: "DPC"
 Description: "レセプト電算処理システムの請求に係る記録条件仕様(DPC用)をFHIRにマッピングします。"
-Source: ExtensionClaimComprehensiveEvaluation
+Source: JpRezeptExtensionClaimComprehensiveEvaluation
 Target: "https://shinryohoshu.mhlw.go.jp/shinryohoshu/receMenu/doReceInfo"
 * extension[stayOvernightEffectiveMonth].value[x] -> "外泊レコード'(GA).請求調整区分"
 * extension[stayOvernightAdjuntmentCategory].value[x] -> "外泊レコード(GA).請求調整区分"

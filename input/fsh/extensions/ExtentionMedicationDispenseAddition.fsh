@@ -1,4 +1,4 @@
-Extension: ExtentionMedicationDispenseAddition
+Extension: JpRezeptExtensionMedicationDispenseAddition
 Id: JP-REZEPT-ExtensionMedicationDispenseAddition
 Title: "調剤の加算情報"
 Description: "調剤の加算情報です。"

@@ -1,4 +1,4 @@
-Profile: MedicationAdministration
+Profile: JpRezeptMedicationAdministration
 Parent: $MedicationAdministration
 Id: JP-REZEPT-MedicationAdministration
 Title: "日単位の投薬記録"

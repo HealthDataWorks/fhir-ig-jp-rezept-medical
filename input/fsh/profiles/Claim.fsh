@@ -1,4 +1,4 @@
-Profile: Claim
+Profile: JpRezeptClaim
 Parent: $Claim
 Id: JP-REZEPT-Claim
 Title: "レセプト情報"
@@ -29,10 +29,10 @@ Description: """レセプト(医科レセプト、DPCレセプト、歯科レセ
 * extension ^short = "レセプトの拡張情報"
 * extension ^definition = "レセプトの拡張情報です。"
 * extension contains
-    ExtensionClaimPatientInformation named patientInformation 0..* MS and
-    ExtensionClaimInsurerInformation named insurerInformation 0..* MS and
-    ExtensionClaimCommonInformation named commonInformation 0..* MS and
-    ExtensionClaimCommonInformation named comprehensiveEvaluation 0..* MS
+    JpRezeptExtensionClaimPatientInformation named patientInformation 0..* MS and
+    JpRezeptExtensionClaimInsurerInformation named insurerInformation 0..* MS and
+    JpRezeptExtensionClaimCommonInformation named commonInformation 0..* MS and
+    JpRezeptExtensionClaimCommonInformation named comprehensiveEvaluation 0..* MS
 * extension[patientInformation] ^short = "患者の拡張情報"
 * extension[patientInformation] ^definition = "患者の拡張情報です。"
 * extension[insurerInformation] ^short = "保険会社の拡張情報"

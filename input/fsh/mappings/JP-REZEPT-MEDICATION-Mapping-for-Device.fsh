@@ -2,7 +2,7 @@ Mapping: JP-REZEPT-MEDICATION-Mapping-for-Device
 Id: JP-REZEPT-MEDICATION-Mapping
 Title: "調剤"
 Description: "レセプト電算処理システムの請求に係る記録条件仕様(調剤用)をFHIRにマッピングします。"
-Source: Device
+Source: JpRezeptDevice
 Target: "https://shinryohoshu.mhlw.go.jp/shinryohoshu/receMenu/doReceInfo"
 * deviceName[user-friendly-name].name -> "特定器材レコード(TO).商品名及び規格又はサイズ"
 * deviceName[user-friendly-name].type -> "固定値: user-friendly-name"

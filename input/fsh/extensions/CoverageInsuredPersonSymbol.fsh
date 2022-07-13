@@ -1,4 +1,4 @@
-Extension: CoverageInsuredPersonSymbol
+Extension: JpRezeptExtensionCoverageInsuredPersonSymbol
 Id: JP-REZEPT-ExtensionCoverageInsuredPersonSymbol
 Title: "保険情報の被保険者記号"
 Description: """被保険者証記号を表す拡張 InsuredPersonSymbol です。保険種別が「1:医保」、「2:国保」の場合に記録します。

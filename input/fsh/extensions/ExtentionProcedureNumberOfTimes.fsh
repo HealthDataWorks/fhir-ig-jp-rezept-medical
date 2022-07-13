@@ -1,4 +1,4 @@
-Extension: ExtentionProcedureNumberOfTimes
+Extension: JpRezeptExtensionProcedureNumberOfTimes
 Id: JP-REZEPT-ExtensionProcedureNumberOfTimes
 Title: "診療行為の回数"
 Description: "診療行為の回数です。"

@@ -2,7 +2,7 @@ Mapping: JP-REZEPT-DENTAL-Mapping-for-Procedure
 Id: JP-REZEPT-DENTAL-Mapping
 Title: "歯科"
 Description: "レセプト電算処理システムの請求に係る記録条件仕様(歯科用)をFHIRにマッピングします。"
-Source: Procedure
+Source: JpRezeptProcedure
 Target: "https://shinryohoshu.mhlw.go.jp/shinryohoshu/receMenu/doReceInfo"
 * category.text -> "固定値: 診療識別"
 * code.text -> "固定値: 診療行為"

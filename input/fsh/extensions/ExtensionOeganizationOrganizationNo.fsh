@@ -1,4 +1,4 @@
-Extension: ExtensionOeganizationOrganizationNo
+Extension: JpRezeptExtensionOeganizationOrganizationNo
 Id: JP-REZEPT-ExtensionOeganizationOrganizationNo
 Title: "保険医療機関コード"
 Description: "保険医療機関番号です。７桁で指定します。"

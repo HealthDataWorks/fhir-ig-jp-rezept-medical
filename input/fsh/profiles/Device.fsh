@@ -1,4 +1,4 @@
-Profile: Device
+Profile: JpRezeptDevice
 Parent: $Device
 Id: JP-REZEPT-Device
 Title: "日単位の特定器材情報"
@@ -29,9 +29,9 @@ Description: "医療行為を通じて使用された器材の情報です。"
 * extension ^short = "デバイスの拡張情報"
 * extension ^definition = "デバイスの拡張情報です。"
 * extension contains
-    ExtentionDeviceUnitPrice named unitPrice 0..* MS and
-    ExtentionDeviceQuantity named quantity 0..* MS and
-    ExtentionDeviceNumberOfTimes named numberOfTimes 0..* MS
+    JpRezeptExtensionDeviceUnitPrice named unitPrice 0..* MS and
+    JpRezeptExtensionDeviceQuantity named quantity 0..* MS and
+    JpRezeptExtensionDeviceNumberOfTimes named numberOfTimes 0..* MS
 * extension[unitPrice] ^short = "単価"
 * extension[unitPrice] ^definition = "単価です。"
 * extension[unitPrice] ^comment = "特定器材マスタの金額種別が「5:%加算」「9:乗算割合」の場合、設定しません。\n単価が設定されていない場合、設定しません。"

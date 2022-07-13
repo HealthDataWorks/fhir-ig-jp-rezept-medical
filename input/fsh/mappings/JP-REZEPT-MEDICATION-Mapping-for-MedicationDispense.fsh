@@ -2,7 +2,7 @@ Mapping: JP-REZEPT-MEDICATION-Mapping-for-MedicationDispense
 Id: JP-REZEPT-MEDICATION-Mapping
 Title: "調剤"
 Description: "レセプト電算処理システムの請求に係る記録条件仕様(調剤用)をFHIRにマッピングします。"
-Source: MedicationDispense
+Source: JpRezeptMedicationDispense
 Target: "https://shinryohoshu.mhlw.go.jp/shinryohoshu/receMenu/doReceInfo"
 * status -> "固定値: completed"
 * medication[x] -> "医薬品レコード(IY).医薬品コード"

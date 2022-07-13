@@ -1,4 +1,4 @@
-Extension: ExtensionClaimPatientInformation
+Extension: JpRezeptExtensionClaimPatientInformation
 Id: JP-REZEPT-ExtensionClaimPatientInformation
 Title: "患者の拡張情報"
 Description: "患者の拡張情報です。"

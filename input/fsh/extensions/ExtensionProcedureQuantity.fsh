@@ -1,4 +1,4 @@
-Extension: ExtensionProcedureQuantity
+Extension: JpRezeptExtensionProcedureQuantity
 Id: JP-REZEPT-ExtensionProcedureQuantity
 Title: "診療行為の使用量"
 Description: "診療行為の使用量です。"

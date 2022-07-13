@@ -2,7 +2,7 @@ Mapping: JP-REZEPT-MEDICAL-Mapping
 Id: JP-REZEPT-MEDICAL-Mapping
 Title: "医科"
 Description: "レセプト電算処理システムの請求に係る記録条件仕様(医科用)をFHIRにマッピングします。"
-Source: Procedure
+Source: JpRezeptProcedure
 Target: "https://shinryohoshu.mhlw.go.jp/shinryohoshu/receMenu/doReceInfo"
 * category.text -> "固定値: 診療識別"
 * code.text -> "固定値: 診療行為"

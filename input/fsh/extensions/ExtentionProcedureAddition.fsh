@@ -1,4 +1,4 @@
-Extension: ExtentionProcedureAddition
+Extension: JpRezeptExtensionProcedureAddition
 Id: JP-REZEPT-ExtensionProcedureAddition
 Title: "診療行為の加算情報"
 Description: "診療行為の加算情報です。"

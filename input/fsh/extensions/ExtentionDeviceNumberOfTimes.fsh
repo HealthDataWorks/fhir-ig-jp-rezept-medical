@@ -1,4 +1,4 @@
-Extension: ExtentionDeviceNumberOfTimes
+Extension: JpRezeptExtensionDeviceNumberOfTimes
 Id: JP-REZEPT-ExtensionDeviceNumberOfTimes
 Title: "特定機材の使用回数"
 Description: "特定機材の使用回数です。"

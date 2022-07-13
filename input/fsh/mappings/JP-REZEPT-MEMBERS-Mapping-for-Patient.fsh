@@ -2,7 +2,7 @@ Mapping: JP-REZEPT-MEMBERS-Mapping-for-Patient
 Id: JP-REZEPT-MEMBERS-Mapping
 Title: "加入者情報"
 Description: "レセプト電算処理システムの加入者情報をFHIRにマッピングします。"
-Source: Patient
+Source: JpRezeptPatient
 Target: "https://shinryohoshu.mhlw.go.jp/shinryohoshu/receMenu/doReceInfo"
 * name[kanji].text -> "加入者情報.氏名(漢字)"
 * name[kana].text -> "加入者情報.氏名(カナ)"

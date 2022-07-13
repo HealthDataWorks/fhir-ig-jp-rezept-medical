@@ -1,4 +1,4 @@
-Profile: Organization
+Profile: JpRezeptOrganization
 Parent: $Organization
 Id: JP-REZEPT-Organization
 Title: "医療機関"
@@ -23,9 +23,9 @@ Description: """医療機関、薬局の情報です。
 * extension ^slicing.discriminator.path = "extention.url"
 * extension ^slicing.rules = #open
 * extension contains
-    ExtensionOrganizationPrefectureNo named PrefectureNo 0..* MS and
-    ExtensionOrganizationOrganizationCategory named OrganizationCategory 0..* MS and
-    ExtensionOeganizationOrganizationNo named OrganizationNo 0..* MS
+    JpRezeptExtensionOrganizationPrefectureNo named PrefectureNo 0..* MS and
+    JpRezeptExtensionOrganizationOrganizationCategory named OrganizationCategory 0..* MS and
+    JpRezeptExtensionOeganizationOrganizationNo named OrganizationNo 0..* MS
 * extension[PrefectureNo] ^label = "都道府県番号"
 * extension[PrefectureNo] ^short = "都道府県番号"
 * extension[PrefectureNo] ^definition = "都道府県番号(2桁)です。"

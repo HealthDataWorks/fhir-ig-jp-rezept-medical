@@ -1,4 +1,4 @@
-Extension: ExtensionClaimCommonInformation
+Extension: JpRezeptExtensionClaimCommonInformation
 Id: JP-REZEPT-ExtensionClaimCommonInformation
 Title: "レセプト情報の共通の拡張情報"
 Description: "レセプト情報の共通の拡張情報です。"

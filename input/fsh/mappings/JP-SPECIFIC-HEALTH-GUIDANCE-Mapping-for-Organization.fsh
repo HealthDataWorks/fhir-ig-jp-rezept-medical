@@ -2,7 +2,7 @@ Mapping: JP-SPECIFIC-HEALTH-GUIDANCE-Mapping-for-Organization
 Id: JP-SPECIFIC-HEALTH-GUIDANCE-Mapping
 Title: "特定保健指導"
 Description: "特定保健指導の電子的なデータ標準様式の特定保健指導情報ファイル仕様説明書をFHIRにマッピングします。"
-Source: Organization
+Source: JpRezeptOrganization
 Target: "https://www.mhlw.go.jp/content/12400000/000617344.pdf"
 * name -> "XML No: 7.6.1 XPath: /ClinicalDocument/author/assignedAuthor/representedOrganization/name/text()"
 * telecom.value -> "XML No: 7.7.1 XPath: /ClinicalDocument/author/assignedAuthor/representedOrganization/telecom/@value"

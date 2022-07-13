@@ -2,7 +2,7 @@ Mapping: JP-REZEPT-DPC-Mapping-for-Organization
 Id: JP-REZEPT-DPC-Mapping
 Title: "DPC"
 Description: "レセプト電算処理システムの請求に係る記録条件仕様(DPC用)をFHIRにマッピングします。"
-Source: Organization
+Source: JpRezeptOrganization
 Target: "https://shinryohoshu.mhlw.go.jp/shinryohoshu/receMenu/doReceInfo"
 * name -> "医療機関情報レコード(IR).医療機関名称"
 * name -> "臓器提供医療機関情報レコード(TI).医療機関名称"

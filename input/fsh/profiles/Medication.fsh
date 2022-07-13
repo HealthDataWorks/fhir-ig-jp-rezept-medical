@@ -1,4 +1,4 @@
-Profile: Medication
+Profile: JpRezeptMedication
 Parent: $Medication
 Id: JP-REZEPT-Medication
 Title: "医薬品情報"

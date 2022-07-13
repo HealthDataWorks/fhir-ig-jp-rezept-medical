@@ -1,4 +1,4 @@
-Extension: ExtensionPatientContactPosition
+Extension: JpRezeptExtensionPatientContactPosition
 Id: JP-REZEPT-ExtensionPatientContactPosition
 Title: "役割、役職情報"
 Description: "ローマ字表記であることを⽰す。"

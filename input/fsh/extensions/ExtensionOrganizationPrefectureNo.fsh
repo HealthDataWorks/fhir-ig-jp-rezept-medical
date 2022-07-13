@@ -1,4 +1,4 @@
-Extension: ExtensionOrganizationPrefectureNo
+Extension: JpRezeptExtensionOrganizationPrefectureNo
 Id: JP-REZEPT-ExtensionOrganizationPrefectureNo
 Title: "都道府県番号"
 Description: "都道府県番号です。２桁で指定します。"

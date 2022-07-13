@@ -1,4 +1,4 @@
-Extension: ExtensionConditionMajorDisease
+Extension: JpRezeptExtensionConditionMajorDisease
 Id: JP-REZEPT-ExtensionConditionMajorDisease
 Title: "主病名があるかどうか"
 Description: "主病名があるかどうかのフラグです。"

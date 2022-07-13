@@ -1,4 +1,4 @@
-Profile: Coverage
+Profile: JpRezeptCoverage
 Parent: $Coverage
 Id: JP-REZEPT-Coverage
 Title: "保険・被保険者情報"
@@ -28,8 +28,8 @@ Description: """保険情報、公費情報です。
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    CoverageInsuredPersonSymbol named InsuredPersonSymbol 0..* MS and
-    CoverageInsuredPersonNo named InsuredPersonNumber 0..* MS
+    JpRezeptExtensionCoverageInsuredPersonSymbol named InsuredPersonSymbol 0..* MS and
+    JpRezeptExtensionCoverageInsuredPersonNo named InsuredPersonNumber 0..* MS
 * extension[InsuredPersonSymbol] ^label = "被保険者証記号を表す拡張"
 * extension[InsuredPersonSymbol] ^short = "被保険者証記号を表す拡張"
 * extension[InsuredPersonSymbol] ^definition = "被保険者証記号を表す拡張「InsuredPersonSymbol」です。保険種別が「1:医保」、「2:国保」の場合に記録します。被保険者証記号がない場合は、本拡張要素は出現しません。"

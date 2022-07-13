@@ -2,7 +2,7 @@ Mapping: JP-REZEPT-DENTAL-Mapping-for-ExtensionClaimCommonInformation
 Id: JP-REZEPT-DENTAL-Mapping
 Title: "歯科"
 Description: "レセプト電算処理システムの請求に係る記録条件仕様(歯科用)をFHIRにマッピングします。"
-Source: ExtensionClaimCommonInformation
+Source: JpRezeptExtensionClaimCommonInformation
 Target: "https://shinryohoshu.mhlw.go.jp/shinryohoshu/receMenu/doReceInfo"
 * extension[benefitRate].value[x] -> "レセプト共通レコード(RE).給付割合"
 * extension[burdenClassification].value[x] -> "レセプト共通レコード(RE).一部負担金・食事療養費・生活療養費標準負担額区分"

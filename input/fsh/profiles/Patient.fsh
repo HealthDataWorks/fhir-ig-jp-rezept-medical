@@ -1,4 +1,4 @@
-Profile: Patient
+Profile: JpRezeptPatient
 Parent: $Patient
 Id: JP-REZEPT-Patient
 Title: "患者情報"
@@ -49,7 +49,7 @@ Description: """患者の情報です。
     roma 0..* MS
 * name[kanji] ^short = "患者の氏名(漢字)"
 * name[kanji] ^definition = "患者の氏名(漢字)です。"
-* name[kanji].extension only ExtensionPatientNameKanji
+* name[kanji].extension only JpRezeptExtensionPatientNameKanji
 * name[kanji].extension MS
 * name[kanji].use = #official (exactly)
 * name[kanji].use MS
@@ -70,7 +70,7 @@ Description: """患者の情報です。
 * name[kanji].given ^comment = "ミドルネームがある場合には、ミドルネーム、名の順で原則として全⾓空⽩をいれて連結する⽂字列とする。"
 * name[kana] ^short = "患者の氏名(カナ)"
 * name[kana] ^definition = "患者の氏名(カナ)です。"
-* name[kana].extension only ExtensionPatientNameKana
+* name[kana].extension only JpRezeptExtensionPatientNameKana
 * name[kana].extension MS
 * name[kana].use = #official (exactly)
 * name[kana].use MS
@@ -88,7 +88,7 @@ Description: """患者の情報です。
 * name[kana].given ^definition = "患者の名(カナ)です。"
 * name[roma] ^short = "患者の氏名(ローマ字)"
 * name[roma] ^definition = "患者の氏名(ローマ字)です。"
-* name[roma].extension only ExtensionPatientNameRoma
+* name[roma].extension only JpRezeptExtensionPatientNameRoma
 * name[roma].extension MS
 * name[roma].use = #official (exactly)
 * name[roma].use MS
@@ -126,7 +126,7 @@ Description: """患者の情報です。
 * contact MS
 * contact ^short = "患者の勤務先情報"
 * contact ^definition = "患者の勤務先情報です。"
-* contact.extension only ExtensionPatientContactPosition
+* contact.extension only JpRezeptExtensionPatientContactPosition
 * contact.extension MS
 * contact.extension ^short = "受診者の勤務先での役割、役職情報"
 * contact.extension ^definition = "受診者の勤務先での役割、役職情報です。"

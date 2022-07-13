@@ -1,4 +1,4 @@
-Extension: ExtensionClaimComprehensiveEvaluation
+Extension: JpRezeptExtensionClaimComprehensiveEvaluation
 Id: JP-REZEPT-ExtensionClaimComprehensiveEvaluation
 Title: "包括評価の拡張情報"
 Description: "包括評価の拡張情報の情報です。"

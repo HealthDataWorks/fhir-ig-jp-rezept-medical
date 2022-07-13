@@ -1,4 +1,4 @@
-Extension: ExtensionClaimInsurerInformation
+Extension: JpRezeptExtensionClaimInsurerInformation
 Id: JP-REZEPT-ExtensionClaimInsurerInformation
 Title: "保険会社の拡張情報"
 Description: "保険会社の拡張情報です。"

@@ -1,4 +1,4 @@
-Profile: Condition
+Profile: JpRezeptCondition
 Parent: $Condition
 Id: JP-REZEPT-Condition
 Title: "患者の傷病記録"
@@ -27,9 +27,9 @@ Description: "患者の傷病記録、診断内容、またはその他の状況
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    ExtensionConditionOutcome named outcome 0..* MS and
-    ExtensionConditionMajorDisease named majorDisease 0..* MS and
-    ExtensionConditionNumberOfComorbidities named numberOfComorbidities 0..* MS
+    JpRezeptExtensionConditionOutcome named outcome 0..* MS and
+    JpRezeptExtensionConditionMajorDisease named majorDisease 0..* MS and
+    JpRezeptExtensionConditionNumberOfComorbidities named numberOfComorbidities 0..* MS
 * extension[outcome] ^short = "転帰区分コード"
 * extension[outcome] ^definition = "転帰区分コードです。"
 * extension[majorDisease] ^short = "主病名があるかどうかのフラグ"

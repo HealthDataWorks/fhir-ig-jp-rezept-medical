@@ -1,4 +1,4 @@
-Extension: ExtensionPatientNameKana
+Extension: JpRezeptExtensionPatientNameKana
 Id: JP-REZEPT-ExtensionPatientNameKana
 Title: "カナ表記"
 Description: "カナ表記であることを⽰します。"

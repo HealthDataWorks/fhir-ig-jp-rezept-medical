@@ -1,4 +1,4 @@
-Extension: ExtensionPatientNameRoma
+Extension: JpRezeptExtensionPatientNameRoma
 Id: JP-REZEPT-ExtensionPatientNameRoma
 Title: "ローマ字表記"
 Description: "ローマ字表記であることを⽰す。"

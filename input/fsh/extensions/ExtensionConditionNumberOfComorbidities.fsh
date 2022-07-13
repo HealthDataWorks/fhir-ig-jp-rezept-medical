@@ -1,4 +1,4 @@
-Extension: ExtensionConditionNumberOfComorbidities
+Extension: JpRezeptExtensionConditionNumberOfComorbidities
 Id: JP-REZEPT-ExtensionConditionNumberOfComorbidities
 Title: "併存傷病名数"
 Description: "併存傷病名数です。"

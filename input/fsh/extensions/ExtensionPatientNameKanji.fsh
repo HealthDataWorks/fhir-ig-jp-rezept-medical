@@ -1,4 +1,4 @@
-Extension: ExtensionPatientNameKanji
+Extension: JpRezeptExtensionPatientNameKanji
 Id: JP-REZEPT-ExtensionPatientNameKanji
 Title: "漢字表記"
 Description: "漢字表記であることを⽰す。"

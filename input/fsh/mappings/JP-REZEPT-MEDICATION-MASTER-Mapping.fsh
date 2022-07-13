@@ -2,7 +2,7 @@ Mapping: JP-REZEPT-MEDICATION-MASTER-Mapping
 Id: JP-REZEPT-MEDICATION-MASTER-Mapping
 Title: "医薬品マスター"
 Description: "レセプト電算処理システムの医薬品マスターをFHIRにマッピングします。"
-Source: Medication
+Source: JpRezeptMedication
 Target: "https://shinryohoshu.mhlw.go.jp/shinryohoshu/receMenu/doReceInfo"
 * identifier[code1].value -> "医薬品マスター.医薬品コード"
 * identifier[code2].value -> "医薬品マスター.薬価基準収載医薬品コード"

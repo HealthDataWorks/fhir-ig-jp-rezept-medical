@@ -1,4 +1,4 @@
-Extension: ExtensionConditionOutcome
+Extension: JpRezeptExtensionConditionOutcome
 Id: JP-REZEPT-ExtensionConditionOutcome
 Title: "転帰区分コード"
 Description: "転帰区分コードです。"
