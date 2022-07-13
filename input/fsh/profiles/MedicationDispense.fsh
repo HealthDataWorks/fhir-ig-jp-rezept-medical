@@ -5,7 +5,7 @@ Title: "調剤情報"
 Description: """調剤情報です。  
 医薬品が指定された患者に調剤される予定であるか、調剤されたことを示します。  
 これには、提供される医薬品の説明と、医薬品を投与するための指示が含まれます。"""
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-MedicationDispense.html"
+* ^url = $JpRezeptMedicationDispense
 * ^status = #active
 * id MS
 * id ^short = "このリソースのID"

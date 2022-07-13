@@ -3,7 +3,7 @@ Parent: $Device
 Id: JP-REZEPT-Device
 Title: "日単位の特定器材情報"
 Description: "医療行為を通じて使用された器材の情報です。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Device.html"
+* ^url = $JpRezeptDevice
 * ^status = #draft
 * . ^short = "医療行為を通じて使用された器材の情報です。"
 * . ^definition = "医療行為を通じて使用された器材の情報です。\n後から医療行為に使用された器材を追えるようにする必要があります。"

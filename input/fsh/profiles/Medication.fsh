@@ -3,7 +3,7 @@ Parent: $Medication
 Id: JP-REZEPT-Medication
 Title: "医薬品情報"
 Description: "このリソースは、主に医薬品の処方、調剤、および投与を目的とした医薬品の識別、定義、および医薬品の使用に関する記述を行うために使用されます。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Medication.html"
+* ^url = $JpRezeptMedication
 * ^status = #draft
 * . ^short = "医薬品情報"
 * . ^definition = "このリソースは、主に医薬品の処方、調剤、および投与を目的とした医薬品の識別、定義、および医薬品の使用に関する記述を行うために使用されます。"

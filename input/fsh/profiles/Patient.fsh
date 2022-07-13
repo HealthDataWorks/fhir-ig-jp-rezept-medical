@@ -4,7 +4,7 @@ Id: JP-REZEPT-Patient
 Title: "患者情報"
 Description: """患者の情報です。  
 医療行為や関連サービスを受けている個人も含まれます。"""
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Patient.html"
+* ^url = $JpRezeptPatient
 * ^status = #draft
 * . ^short = "患者情報"
 * . ^definition = "患者の情報です。  \n医療行為や関連サービスを受けている個人も含まれます。"

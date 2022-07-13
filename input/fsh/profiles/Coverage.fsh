@@ -4,7 +4,7 @@ Id: JP-REZEPT-Coverage
 Title: "保険・被保険者情報"
 Description: """保険情報、公費情報です。  
 医療サービスや調剤等の請求額と自己負担金の両方が含まれます。"""
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Coverage.html"
+* ^url = $JpRezeptCoverage
 * ^status = #draft
 * . ^short = "保険情報、公費情報"
 * . ^definition = "保険情報、公費情報です。\n医療サービスや調剤等の請求額と自己負担金の両方が含まれます。"

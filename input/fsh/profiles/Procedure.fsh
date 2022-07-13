@@ -4,7 +4,7 @@ Id: JP-REZEPT-Procedure
 Title: "診療行為情報"
 Description: """患者に対して行われた診療行為や関連するサービスの内容です。  
 また、介護、リハビルやカウンセリング等も含まれます。"""
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Procedure.html"
+* ^url = $JpRezeptProcedure
 * ^status = #active
 * id MS
 * id ^short = "このリソースのID"

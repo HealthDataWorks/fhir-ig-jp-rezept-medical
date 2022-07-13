@@ -4,7 +4,7 @@ Id: JP-REZEPT-Encounter
 Title: "入院、外来情報"
 Description: """入院、外来を記録した情報です。  
 医療サービスの提供者と患者の間を繋ぐ情報を示します。"""
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition/JP-REZEPT-Encounter.html"
+* ^url = $JpRezeptEncounter
 * ^status = #draft
 * . ^short = "入院、外来情報"
 * . ^definition = "入院、外来を記録した情報です。\n医療サービスの提供者と患者の間を繋ぐ情報を示します。"

@@ -4,7 +4,7 @@ Id: JP-REZEPT-Organization
 Title: "医療機関"
 Description: """医療機関、薬局の情報です。  
 診療行為、調剤に関わった企業、機関、部門や保健者等が含まれます。"""
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Organization.html"
+* ^url = $JpRezeptOrganization
 * ^status = #active
 * id MS
 * id ^short = "このリソースのID"

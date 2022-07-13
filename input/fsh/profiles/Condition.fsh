@@ -3,7 +3,7 @@ Parent: $Condition
 Id: JP-REZEPT-Condition
 Title: "患者の傷病記録"
 Description: "患者の傷病記録、診断内容、またはその他の状況や問題点、または臨床の概念事項を示します。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition-JP-REZEPT-Condition.html"
+* ^url = $JpRezeptCondition
 * ^status = #draft
 * . ^short = "患者の傷病記録"
 * . ^definition = "患者の傷病記録、診断内容、またはその他の状況や問題点、または臨床の概念事項を示します。"
