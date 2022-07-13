@@ -2,6 +2,6 @@ ValueSet: WardDivision
 Id: ValueSet-JP-REZEPT-WardDivision
 Title: "病棟区分コード"
 Description: "このバリューセットには、レセプト電算処理システムで定義されている病棟区分コードが含まれます。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medical/ValueSet-ValueSet-JP-REZEPT-WardDivision.html"
+* ^url = $ValueSetWardDivision
 * ^status = #draft
 * include codes from system WardDivision

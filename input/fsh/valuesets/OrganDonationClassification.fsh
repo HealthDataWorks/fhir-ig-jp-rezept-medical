@@ -2,6 +2,6 @@ ValueSet: OrganDonationClassification
 Id: ValueSet-JP-REZEPT-OrganDonationClassification
 Title: "臓器提供区分コード"
 Description: "この ValueSet には、レセプト電算処理システムで定義されている臓器提供区分が含まれます。"
-* ^url = "https://igs.healthdataworks.net/jp-rezept-medical/ValueSet-ValueSet-JP-REZEPT-OrganDonationClassification.html"
+* ^url = $ValueSetOrganDonationClassification
 * ^status = #draft
 * include codes from system OrganDonationClassification
