@@ -56,7 +56,7 @@ Description: """調剤情報です。
 * performer.function.coding MS
 * performer.function.coding ^short = "調剤行為"
 * performer.function.coding ^definition = "調剤行為です。"
-* performer.function.coding.system = "http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function" (exactly)
+* performer.function.coding.system = $CodeSystemMedicationdispensePerformerFunction (exactly)
 * performer.function.coding.system MS
 * performer.function.coding.system ^short = "行為のURI"
 * performer.function.coding.system ^definition = "行為のURIを示す。"

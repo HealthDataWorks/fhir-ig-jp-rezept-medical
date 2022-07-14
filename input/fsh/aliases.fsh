@@ -80,6 +80,9 @@ Alias: $CodeSystemSpecificDisease = https://igs.healthdataworks.net/jp-rezept-me
 Alias: $CodeSystemSpecificEquipmentUnit = https://igs.healthdataworks.net/jp-rezept-medication/CodeSystem-CodeSystem-JP-REZEPT-SpecificEquipmentUnit.html
 Alias: $CodeSystemWardDivision = https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem-CodeSystem-JP-REZEPT-WardDivision.html
 
+Alias: $CodeSystemMedicationdispensePerformerFunction = http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function
+Alias: $CodeSystemOrganizationType = http://terminology.hl7.org/CodeSystem/organization-type
+
 Alias: $CodeSystemCounterBurdenCategory = https://igs.healthdataworks.net/jp-rezept-medication/CodeSystem-CodeSystem-JP-REZEPT-CounterBurdenCategory.html
 Alias: $CodeSystemOrganDonationMedicalInstitutionClassification = https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem-CodeSystem-JP-REZEPT-OrganDonationMedicalInstitutionClassification.html
 Alias: $CodeSystemPatientStatus = https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem-CodeSystem-JP-REZEPT-PatientStatus.html
@@ -125,6 +128,12 @@ Alias: $ValueSetSpecificEquipment = https://igs.healthdataworks.net/jp-rezept-me
 Alias: $ValueSetSpecificEquipmentUnit = https://igs.healthdataworks.net/jp-rezept-medication/ValueSet-ValueSet-JP-REZEPT-SpecificEquipmentUnit.html
 Alias: $ValueSetWardDivision = https://igs.healthdataworks.net/jp-rezept-medical/ValueSet-ValueSet-JP-REZEPT-WardDivision.html
 
+Alias: $ValueSetProccessPriority = http://hl7.org/fhir/ValueSet/process-priority
+Alias: $ValueSetProccessPayeetype = http://hl7.org/fhir/ValueSet/payeetype
+
 Alias: $ValueSet-ValueSet-JP-REZEPT-DosageForm.html = https://igs.healthdataworks.net/jp-rezept-medication/ValueSet-ValueSet-JP-REZEPT-DosageForm.html
 Alias: $ValueSet-ValueSet-JP-REZEPT-MedicationUsage.html = https://igs.healthdataworks.net/jp-rezept-medication/ValueSet-ValueSet-JP-REZEPT-MedicationUsage.html
 Alias: $ValueSet-ValueSet-JP-REZEPT-CalculationCategory.html = https://igs.healthdataworks.net/jp-rezept-medication/ValueSet-ValueSet-JP-REZEPT-CalculationCategory.html
+
+// Identifier
+Alias: $InsuranceMedicalInstitutionNo = http://jpfhir.jp/fhir/ePrescription/InsuranceMedicalInstitutionNo

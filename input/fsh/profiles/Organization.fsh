@@ -34,7 +34,7 @@ Description: """医療機関、薬局の情報です。
 * identifier MS
 * identifier ^short = "保険医療機関番号"
 * identifier ^definition = "保険医療機関番号です。"
-* identifier.system = "http://jpfhir.jp/fhir/ePrescription/InsuranceMedicalInstitutionNo" (exactly)
+* identifier.system = $InsuranceMedicalInstitutionNo (exactly)
 * identifier.system MS
 * identifier.system ^short = "保険医療機関番号URL"
 * identifier.system ^definition = "保険医療機関番号(10 桁)の名前空間を識別するURLです。"
@@ -47,7 +47,7 @@ Description: """医療機関、薬局の情報です。
 * type.coding MS
 * type.coding ^short = "医療機関、薬局コード"
 * type.coding ^definition = "医療機関、薬局コードです。"
-* type.coding.system = "http://terminology.hl7.org/CodeSystem/organization-type" (exactly)
+* type.coding.system = $CodeSystemOrganizationType (exactly)
 * type.coding.system MS
 * type.coding.system ^short = "医療機関、薬局コードのURI"
 * type.coding.system ^definition = "医療機関、薬局コードのURIです。"

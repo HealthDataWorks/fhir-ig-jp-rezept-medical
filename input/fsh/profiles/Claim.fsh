@@ -163,7 +163,7 @@ Description: """レセプト(医科レセプト、DPCレセプト、歯科レセ
 * priority.coding MS
 * priority.coding ^short = "レセプトの優先度"
 * priority.coding ^definition = "レセプトの優先度です。"
-* priority.coding.system = "http://hl7.org/fhir/ValueSet/process-priority" (exactly)
+* priority.coding.system = $ValueSetProccessPriority (exactly)
 * priority.coding.system MS
 * priority.coding.system ^short = "レセプトの優先度のURI"
 * priority.coding.system ^definition = "レセプトの優先度のURIです。"
@@ -208,7 +208,7 @@ Description: """レセプト(医科レセプト、DPCレセプト、歯科レセ
 * payee.type.coding MS
 * payee.type.coding ^short = "受取人カテゴリ"
 * payee.type.coding ^definition = "受取人カテゴリです。"
-* payee.type.coding.system = "http://hl7.org/fhir/ValueSet/payeetype" (exactly)
+* payee.type.coding.system = $ValueSetProccessPayeetype (exactly)
 * payee.type.coding.system MS
 * payee.type.coding.system ^short = "受取人カテゴリのURI"
 * payee.type.coding.system ^definition = "受取人カテゴリのURIです。"
