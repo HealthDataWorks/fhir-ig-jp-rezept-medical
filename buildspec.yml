@@ -11,7 +11,7 @@ phases:
   pre_build:
     commands:
       - mkdir input-cache
-      - curl -OL https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o input-cache/publisher.jar
+      - curl -o input-cache/publisher.jar -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar
       - git clone https://github.com/HealthDataWorks/fhir-ig-template-base.git custom-template
   build:
     commands:
