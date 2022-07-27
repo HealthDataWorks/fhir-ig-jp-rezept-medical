@@ -1,15 +1,15 @@
 // Profiles Parent
 Alias: $Claim = Claim
-Alias: $Condition = Condition
-Alias: $Coverage = Coverage
+Alias: $Condition = JP_Condition
+Alias: $Coverage = JP_Coverage
 Alias: $Device = Device
-Alias: $Encounter = Encounter
-Alias: $Medication = Medication
-Alias: $MedicationAdministration = MedicationAdministration
+Alias: $Encounter = JP_Encounter
+Alias: $Medication = JP_Medication
+Alias: $MedicationAdministration = JP_MedicationAdministration
 Alias: $MedicationDispense = MedicationDispense
-Alias: $Organization = Organization
-Alias: $Patient = Patient
-Alias: $Procedure = Procedure
+Alias: $Organization = JP_Organization
+Alias: $Patient = JP_Patient
+Alias: $Procedure = JP_Procedure
 
 // Profiles
 Alias: $JpRezeptClaim = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Claim.html

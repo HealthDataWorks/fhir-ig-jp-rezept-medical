@@ -37,6 +37,9 @@ publisher:
 #    uri: http://hl7.org/fhir/us/ccda/
 #    version: 1.1.0
 
+dependencies:
+  hl7.fhir.jp.core: dev
+
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
 # this file, it is assumed that the author will fully manage the

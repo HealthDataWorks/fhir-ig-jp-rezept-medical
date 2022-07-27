@@ -19,18 +19,18 @@ Description: """医療機関、薬局の情報です。
 * text.div MS
 * text.div ^short = "このリソースの概要"
 * text.div ^definition = "このリソースの概要です。"
-* extension ^slicing.discriminator.type = #value
-* extension ^slicing.discriminator.path = "extention.url"
-* extension ^slicing.rules = #open
-* extension contains
-    JpRezeptExtensionOrganizationPrefectureNo named PrefectureNo 0..* MS and
-    JpRezeptExtensionOrganizationOrganizationCategory named OrganizationCategory 0..* MS and
-    JpRezeptExtensionOeganizationOrganizationNo named OrganizationNo 0..* MS
-* extension[PrefectureNo] ^label = "都道府県番号"
-* extension[PrefectureNo] ^short = "都道府県番号"
-* extension[PrefectureNo] ^definition = "都道府県番号(2桁)です。"
-* extension[OrganizationCategory] ^short = "点数表コード"
-* extension[OrganizationCategory] ^definition = "点数表コードです。"
+//* extension ^slicing.discriminator.type = #value
+//* extension ^slicing.discriminator.path = "extention.url"
+//* extension ^slicing.rules = #open
+//* extension contains
+//    JpRezeptExtensionOrganizationPrefectureNo named PrefectureNo 0..* MS and
+//    JpRezeptExtensionOrganizationOrganizationCategory named OrganizationCategory 0..* MS and
+//    JpRezeptExtensionOeganizationOrganizationNo named OrganizationNo 0..* MS
+//* extension[PrefectureNo] ^label = "都道府県番号"
+//* extension[PrefectureNo] ^short = "都道府県番号"
+//* extension[PrefectureNo] ^definition = "都道府県番号(2桁)です。"
+//* extension[OrganizationCategory] ^short = "点数表コード"
+//* extension[OrganizationCategory] ^definition = "点数表コードです。"
 * identifier MS
 * identifier ^short = "保険医療機関番号"
 * identifier ^definition = "保険医療機関番号です。"
