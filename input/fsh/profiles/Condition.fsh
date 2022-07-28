@@ -86,7 +86,7 @@ Description: "患者の傷病記録、診断内容、またはその他の状況
 * code.coding[code].system ^short = "傷病名コードのURI"
 * code.coding[code].system ^definition = "傷病名コードのURIです。"
 * code.coding[code].code MS
-* code.coding[code].code from MainIllness (required)
+//* code.coding[code].code from MainIllness (required)
 * code.coding[code].code ^short = "傷病名コード"
 * code.coding[code].code ^definition = "傷病名コードです。"
 * code.coding[code].display MS
@@ -109,7 +109,7 @@ Description: "患者の傷病記録、診断内容、またはその他の状況
 * bodySite.coding ^short = "部位"
 * bodySite.coding ^definition = "部位です。"
 * bodySite.coding.code MS
-* bodySite.coding.code from HumanBodyPart (required)
+//* bodySite.coding.code from HumanBodyPart (required)
 * bodySite.coding.code ^short = "部位コード"
 * bodySite.coding.code ^definition = "部位コードです。"
 * bodySite.coding.display MS
