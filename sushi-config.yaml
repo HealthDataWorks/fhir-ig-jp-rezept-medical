@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: jp-rezept-medical
-canonical: https://healthdataworks.net/hl7-fhir
+canonical: https://igs.healthdataworks.net/jp-rezept-medical
 name: JP_rezept_medical
 title: 医科レセプト
 description: この実装ガイドは、HL7 FHIR のリソースに医科レセプトの情報を設定して利用するためのドキュメントです。
