@@ -8,7 +8,7 @@ Usage: #definition
 * meta.versionId = "7"
 * meta.lastUpdated = "2021-05-07T05:43:19.411+00:00"
 * meta.source = "#QQa9H2FMCOnFUAqS"
-* url = "https://igs.healthdataworks.net/jp-rezept-medical/CapabilityStatement-rezept-medical-server.html"
+* url = "https://igs.healthdataworks.net/jp-rezept-medical/CapabilityStatement-rezept-medical-server"
 * version = "0.0.1"
 * name = "RezeptMedicalServer"
 * title = "Rezept Medical Server"

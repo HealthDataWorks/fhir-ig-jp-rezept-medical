@@ -81,7 +81,7 @@ Description: """調剤情報です。
 * type.coding ^short = "薬品の剤形"
 * type.coding ^definition = "薬品の剤形です。"
 * type.coding.code MS
-* type.coding.code from $ValueSet-ValueSet-JP-REZEPT-DosageForm.html (required)
+* type.coding.code from $ValueSet-ValueSet-JP-REZEPT-DosageForm (required)
 * type.coding.code ^short = "剤形コード"
 * type.coding.code ^definition = "剤形コードです。"
 * type.coding.display MS
@@ -120,6 +120,6 @@ Description: """調剤情報です。
 * dosageInstruction.text ^comment = "特別指示がある場合に記載する。"
 * dosageInstruction.timing MS
 * dosageInstruction.timing.code MS
-* dosageInstruction.timing.code from $ValueSet-ValueSet-JP-REZEPT-MedicationUsage.html (required)
+* dosageInstruction.timing.code from $ValueSet-ValueSet-JP-REZEPT-MedicationUsage (required)
 * dosageInstruction.timing.code ^short = "薬品の用法"
 * dosageInstruction.timing.code ^definition = "薬品の用法です。"

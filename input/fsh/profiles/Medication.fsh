@@ -68,7 +68,7 @@ Description: "このリソースは、主に医薬品の処方、調剤、およ
 * form.coding ^short = "医薬品の形状"
 * form.coding ^definition = "医薬品の形状です。"
 * form.coding.code MS
-* form.coding.code from $ValueSet-ValueSet-JP-REZEPT-DosageForm.html (required)
+* form.coding.code from $ValueSet-ValueSet-JP-REZEPT-DosageForm (required)
 * form.coding.code ^short = "医薬品の形状コード"
 * form.coding.code ^definition = "医薬品の形状コードです。"
 * form.coding.display MS
@@ -107,7 +107,7 @@ Description: "このリソースは、主に医薬品の処方、調剤、およ
 * ingredient[=] ^comment = "麻薬・毒薬・覚醒剤原料・向精神薬が0以外の場合に設定します。"
 * ingredient[=].item[x] only CodeableConcept
 * ingredient[=].item[x] MS
-* ingredient[=].item[x] from $ValueSet-ValueSet-JP-REZEPT-DosageForm.html (required)
+* ingredient[=].item[x] from $ValueSet-ValueSet-JP-REZEPT-DosageForm (required)
 * ingredient[=].item[x] ^short = "医薬品の成分・内容"
 * ingredient[=].item[x] ^definition = "医薬品の成分・内容です。"
 * ingredient[+] ^short = "医薬品の有効成分または不活性成分"
