@@ -38,7 +38,7 @@ publisher:
 #    version: 1.1.0
 
 dependencies:
-  hl7.fhir.jp.core: dev
+  hl7.fhir.jp.core: 1.1.0
 
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in

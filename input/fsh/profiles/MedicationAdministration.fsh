@@ -48,7 +48,7 @@ Description: """患者が薬を服薬したり、診療行為で投与したこ�
 * category.text ^short = "手順の分類の名称"
 * category.text ^definition = "手順の分類の名称を示す。"
 * category.text ^comment = "手順の分類の名称は「診療識別」固定とします。"
-* medication[x] only Reference
+//* medication[x] only Reference
 * medication[x] MS
 * medication[x] ^short = "医薬品情報の参照"
 * medication[x] ^definition = "医薬品情報の参照です。"

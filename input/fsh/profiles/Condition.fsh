@@ -86,7 +86,7 @@ Description: "患者の傷病記録、診断内容、またはその他の状況
 * code.coding[code].system ^short = "傷病名コードのURI"
 * code.coding[code].system ^definition = "傷病名コードのURIです。"
 * code.coding[code].code MS
-//* code.coding[code].code from MainIllness (required)
+* code.coding[code].code from ConditionCode (required)
 * code.coding[code].code ^short = "傷病名コード"
 * code.coding[code].code ^definition = "傷病名コードです。"
 * code.coding[code].display MS
@@ -96,13 +96,15 @@ Description: "患者の傷病記録、診断内容、またはその他の状況
 * code.coding[icd10].system ^short = "ICD10コードのURI"
 * code.coding[icd10].system ^definition = "ICD10コードのURIです。"
 * code.coding[icd10].code MS
+* code.coding[icd10].code from ICD10 (required)
 * code.coding[icd10].code ^short = "ICD10コード"
 * code.coding[icd10].code ^definition = "ICD10コードです。"
 * code.coding[icd10].display MS
 * code.coding[icd10].display ^short = "傷病名"
 * code.coding[icd10].display ^definition = "傷病名です。"
 * bodySite MS
-* bodySite ^short = "部位"
+* bodySite from DentalFormula (required)
+* bodySite ^short = "部位(歯式)"
 * bodySite ^definition = "部位です。"
 * bodySite ^comment = "歯科レセプトのみ歯式の情報があるため部位に設定します。"
 * bodySite.coding MS
