@@ -14,5 +14,7 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetGender
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #1 "男" "男性"
 * #2 "女" "女性"

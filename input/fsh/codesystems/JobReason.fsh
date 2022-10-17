@@ -14,6 +14,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetJobReason
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #1 "職上" "職務上"
 * #2 "下３" "下船後3月以内"
 * #3 "通災" "通勤災害"

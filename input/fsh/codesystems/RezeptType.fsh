@@ -14,6 +14,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetRezeptType
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #1 "医科" "医科レセプトの点数表"
 * #2 "DPC" "DPCレセプトの点数表"
 * #3 "歯科" "歯科レセプトの点数表"

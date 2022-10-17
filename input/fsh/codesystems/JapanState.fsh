@@ -14,6 +14,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetJapanState
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #01 "北海道" "北海道"
 * #02 "青森" "青森"
 * #03 "岩手" "岩手"

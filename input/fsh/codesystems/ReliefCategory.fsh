@@ -14,6 +14,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetReliefCategory
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #1 "減額" "減額"
 * #2 "免除" "免除"
 * #3 "支払猶予" "支払猶予"

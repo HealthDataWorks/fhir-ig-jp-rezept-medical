@@ -7,3 +7,4 @@ Description: "このバリューセットには、ICD10コードで定義され�
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.840.1.113883.4.642.3.531"
 * ^status = #draft
+* ^experimental = false

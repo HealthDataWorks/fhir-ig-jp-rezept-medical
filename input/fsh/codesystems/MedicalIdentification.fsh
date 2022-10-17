@@ -10,6 +10,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetMedicalIdentification
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #01 "全体に係る識別コード" "全体に係る識別コード"
 * #11 "初診" "初診"
 * #12 "再診" "再診"

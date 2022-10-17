@@ -14,6 +14,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetBearerType
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #1 "医療保険、国民健康保険、退職者医療又は後期高齢者医療" "医療保険、国民健康保険、退職者医療又は後期高齢者医療"
 * #2 "第１公費負担医療" "第１公費負担医療"
 * #3 "第２公費負担医療" "第２公費負担医療"

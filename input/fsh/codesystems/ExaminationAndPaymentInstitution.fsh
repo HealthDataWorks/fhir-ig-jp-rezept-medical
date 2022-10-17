@@ -14,5 +14,7 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetExaminationAndPaymentInstitution
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #1 "社会保険診療報酬支払基金" "社会保険診療報酬支払基金"
 * #2 "国民健康保険団体連合会" "国民健康保険団体連合会"

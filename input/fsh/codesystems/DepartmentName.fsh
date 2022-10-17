@@ -10,6 +10,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetDepartmentName
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #01 "内科" "内科"
 * #02 "精神科" "精神科"
 * #09 "小児科" "小児科"

@@ -7,3 +7,4 @@ Description: "このバリューセットには、HOT9コードで定義され�
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.392.100495.20.2.74"
 * ^status = #draft
+* ^experimental = false

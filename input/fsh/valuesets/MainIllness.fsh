@@ -4,4 +4,5 @@ Title: "主傷病コード"
 Description: "このバリューセットには、レセプト電算処理システムで定義されている主傷病コードが含まれます。"
 * ^url = $ValueSetMainIllness
 * ^status = #draft
+* ^experimental = false
 * include codes from system MainIllness

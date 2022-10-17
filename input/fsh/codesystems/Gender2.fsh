@@ -10,6 +10,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetGender2
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #001 "男性" "男性"
 * #002 "女性" "女性"
 * #003 "小児" "小児"

@@ -10,6 +10,8 @@ Description: """レセプト電算処理システムで使用されている症�
 * ^status = #draft
 * ^valueSet = $ValueSetDetailedSymptomClassification
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #01 "患者の主たる疾患（合併症を含む。）の診断根拠となった臨床症状" "患者の主たる疾患（合併症を含む。）の診断根拠となった臨床症状"
 * #02 "患者の主たる疾患（合併症を含む。）の診断根拠となった臨床症状の診察・検査所見" "患者の主たる疾患（合併症を含む。）の診断根拠となった臨床症状の診察・検査所見"
 * #03 "主な治療行為（手術、処置、薬物治療等）の必要性" "主な治療行為（手術、処置、薬物治療等）の必要性"

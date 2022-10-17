@@ -10,6 +10,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetOrganDonorReceiptType
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #1991 "臓器提供者の入院（一般）" "臓器提供者の入院（一般）"
 * #1992 "臓器提供者の入院外（一般）" "臓器提供者の入院外（一般）"
 * #1997 "臓器提供者の入院（後期高齢者）" "臓器提供者の入院（後期高齢者）"

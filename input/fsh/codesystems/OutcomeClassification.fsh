@@ -12,6 +12,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetOutcomeClassification
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #1 "治ゆ、死亡、中止以外" "治ゆ、死亡、中止以外"
 * #2 "治ゆ" "治ゆ"
 * #3 "死亡" "死亡"

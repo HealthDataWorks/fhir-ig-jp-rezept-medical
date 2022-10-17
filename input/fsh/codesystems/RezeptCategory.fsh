@@ -12,6 +12,8 @@ Description: """レセプト電算処理システムで使用されているレ�
 * ^status = #draft
 * ^valueSet = $ValueSetRezeptCategory
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #1112 "医科・医保単独/国保単独・本人/世帯主" "医科・医保単独/国保単独・本人/世帯主"
 * #1114 "医科・医保単独/国保単独・未就学者" "医科・医保単独/国保単独・未就学者"
 * #1116 "医科・医保単独/国保単独・家族/その他" "医科・医保単独/国保単独・家族/その他"

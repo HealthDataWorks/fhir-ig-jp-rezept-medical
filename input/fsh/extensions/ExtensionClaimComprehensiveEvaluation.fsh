@@ -21,7 +21,7 @@ Description: "包括評価の拡張情報の情報です。"
 * extension[exclusionReason] ^definition = "医科点数表算定理由です。"
 * extension[exclusionReason].value[x] only Coding
 * extension[exclusionReason].value[x] MS
-* extension[exclusionReason].value[x] from $ValueSet-ValueSet-JP-REZEPT-CalculationCategory.html (required)
+* extension[exclusionReason].value[x] from $ValueSet-ValueSet-JP-REZEPT-CalculationCategory (required)
 * extension[exclusionReason].value[x] ^short = "医科点数表算定理由"
 * extension[exclusionReason].value[x] ^definition = "医科点数表算定理由です。"
 * extension[dpc] ^short = "ＤＰＣコード"

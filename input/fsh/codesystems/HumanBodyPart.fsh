@@ -10,6 +10,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetHumanBodyPart
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #001 "頭頸部" "頭頸部"
 * #002 "胸部" "胸部"
 * #003 "腹部" "腹部"
