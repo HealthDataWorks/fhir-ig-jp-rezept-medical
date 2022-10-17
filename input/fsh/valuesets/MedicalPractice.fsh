@@ -4,4 +4,5 @@ Title: "医科診療行為"
 Description: "この ValueSet には、レセプト電算処理システムで定義されている医科診療行為の種類が含まれます。"
 * ^url = $ValueSetMedicalPractice
 * ^status = #draft
+* ^experimental = false
 * include codes from system $kihonmasta_01

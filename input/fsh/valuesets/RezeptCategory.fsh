@@ -4,4 +4,5 @@ Title: "レセプト種別コード"
 Description: "このバリューセットには、レセプト電算処理システムで定義されているレセプト種別コードが含まれます。"
 * ^url = $ValueSetRezeptCategory
 * ^status = #draft
+* ^experimental = false
 * include codes from system RezeptCategory

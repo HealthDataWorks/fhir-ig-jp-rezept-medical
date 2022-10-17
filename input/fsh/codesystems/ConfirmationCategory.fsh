@@ -14,6 +14,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetConfirmationCategory
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #01 "保険医療機関・薬局窓口等" "保険医療機関・薬局窓口等"
 * #02 "審査支払機関に請求後、変更なし" "審査支払機関に請求後、変更なし"
 * #03 "審査支払機関に請求後、確認不能" "審査支払機関に請求後、確認不能"

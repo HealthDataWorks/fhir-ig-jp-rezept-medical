@@ -12,6 +12,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetConsultationClassification
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #1 "診療実日数に計上する受診及び入院" "診療実日数に計上する受診及び入院"
 * #2 "診療実日数に計上しない受診(初診又は再診に付随する一連の行為等)" "診療実日数に計上しない受診(初診又は再診に付随する一連の行為等)"
 * #9 "請求データの各レコードに記録された算定日情報と不一致" "請求データの各レコードに記録された算定日情報と不一致"

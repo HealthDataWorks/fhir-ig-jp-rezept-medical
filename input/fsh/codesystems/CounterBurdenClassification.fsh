@@ -14,6 +14,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetCounterBurdenClassification
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #00 "一部負担金・高額療養費の現物給付なし" "一部負担金・高額療養費の現物給付なし"
 * #01 "一部負担金・高額療養費現物給付あり" "一部負担金・高額療養費現物給付あり"
 * #04 "特別の費用の額" "特別の費用の額"

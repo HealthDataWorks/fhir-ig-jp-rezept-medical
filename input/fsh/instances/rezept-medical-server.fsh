@@ -5,10 +5,7 @@ Description: """医科レセプトのサーバ機能の機能ステートメン�
 使用できるリソース(Resource Type)と使用できる操作(Read	Search:検索参照,	Update:更新,	Create:作成,	Delete:削除)の関係を示します。  
 表で"y"となっている操作が使用できます。空欄となっている操作は使用できません。"""
 Usage: #definition
-* meta.versionId = "7"
-* meta.lastUpdated = "2021-05-07T05:43:19.411+00:00"
-* meta.source = "#QQa9H2FMCOnFUAqS"
-* url = "https://igs.healthdataworks.net/jp-rezept-medical/CapabilityStatement-rezept-medical-server"
+* url = "https://igs.healthdataworks.net/jp-rezept-medical/CapabilityStatement/rezept-medical-server"
 * version = "0.0.1"
 * name = "RezeptMedicalServer"
 * title = "Rezept Medical Server"

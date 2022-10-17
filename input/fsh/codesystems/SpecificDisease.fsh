@@ -10,6 +10,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetSpecificDisease
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #001 "感染症" "感染症"
 * #002 "腫瘍" "腫瘍"
 * #003 "糖尿病" "糖尿病"

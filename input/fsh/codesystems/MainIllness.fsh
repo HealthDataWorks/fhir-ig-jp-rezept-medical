@@ -12,4 +12,6 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetMainIllness
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #01 "(主)" "主傷病"

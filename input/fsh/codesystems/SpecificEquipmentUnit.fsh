@@ -14,6 +14,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetSpecificEquipmentUnit
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #001 "分" "分"
 * #002 "回" "回"
 * #003 "種" "種"

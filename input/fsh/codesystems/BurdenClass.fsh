@@ -14,6 +14,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetBurdenClass
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #1 "医保" "1者(医保)のみ"
 * #5 "公費①" "1者(公費①)のみ"
 * #6 "公費②" "1者(公費②)のみ"

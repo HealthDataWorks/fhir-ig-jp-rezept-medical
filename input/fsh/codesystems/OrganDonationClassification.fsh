@@ -10,6 +10,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetOrganDonationClassification
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #1 "腎提供者" "腎提供者"
 * #2 "造血幹細胞提供者" "造血幹細胞提供者"
 * #3 "皮膚提供者" "皮膚提供者"

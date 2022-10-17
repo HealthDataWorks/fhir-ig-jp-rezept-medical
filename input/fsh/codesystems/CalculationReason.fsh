@@ -10,6 +10,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetCalculationReason
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #01 "入院後２４時間以内に死亡したため" "入院後２４時間以内に死亡したため"
 * #02 "生後１週間以内に死亡したため" "生後１週間以内に死亡したため"
 * #03 "評価療養又は患者申出療養を受ける患者であるため" "評価療養又は患者申出療養を受ける患者であるため"

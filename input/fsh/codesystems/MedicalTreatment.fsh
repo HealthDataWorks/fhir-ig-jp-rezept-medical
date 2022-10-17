@@ -10,6 +10,8 @@ DPCレセプトでこのコードは[オンライン又は光ディスク等に�
 * ^status = #draft
 * ^valueSet = $ValueSetMedicalTreatment
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 * #001 "整形" "整形"
 * #002 "形成" "形成"
 * #003 "美容" "美容"
