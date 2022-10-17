@@ -6,4 +6,6 @@ Description: """レセプト電算処理システムで使用されている傷�
 * ^status = #draft
 * ^valueSet = $ValueSetConditionCode
 * ^content = #complete
+* ^caseSensitive = false
+* ^experimental = false
 

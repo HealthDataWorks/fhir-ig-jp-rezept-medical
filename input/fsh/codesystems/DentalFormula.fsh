@@ -6,4 +6,5 @@ Description: """レセプト電算処理システムで使用されている歯�
 * ^status = #draft
 * ^valueSet = $ValueSetDentalFormula
 * ^content = #complete
-
+* ^caseSensitive = false
+* ^experimental = false

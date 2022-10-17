@@ -6,4 +6,5 @@ Description: """レセプト電算処理システムで使用されているICD1
 * ^status = #draft
 * ^valueSet = $ValueSetICD10
 * ^content = #complete
-
+* ^caseSensitive = false
+* ^experimental = false

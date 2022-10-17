@@ -14,8 +14,8 @@ Alias: $Patient = JP_Patient
 Alias: $Procedure = JP_Procedure
 
 // Profiles
-Alias: $JpRezeptBundle = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition/JP-REZEPT-Bundle.html
-Alias: $JpRezeptComposition = https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition/JP-REZEPT-Composition.html
+Alias: $JpRezeptBundle = https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition/JP-REZEPT-Bundle
+Alias: $JpRezeptComposition = https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition/JP-REZEPT-Composition
 Alias: $JpRezeptClaim = https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition/JP-REZEPT-Claim
 Alias: $JpRezeptCondition = https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition/JP-REZEPT-Condition
 Alias: $JpRezeptCoverage = https://igs.healthdataworks.net/jp-rezept-medical/StructureDefinition/JP-REZEPT-Coverage
@@ -83,9 +83,9 @@ Alias: $CodeSystemRezeptType = https://igs.healthdataworks.net/jp-rezept-medical
 Alias: $CodeSystemSpecificDisease = https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem/CodeSystem-JP-REZEPT-SpecificDisease
 Alias: $CodeSystemSpecificEquipmentUnit = https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem/CodeSystem-JP-REZEPT-SpecificEquipmentUnit
 Alias: $CodeSystemWardDivision = https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem/CodeSystem-JP-REZEPT-WardDivision
-Alias: $CodeSystemConditionCode = https://igs.healthdataworks.net/jp-rezept-medication/CodeSystem/CodeSystem-JP-REZEPT-ConditionCode
-Alias: $CodeSystemICD10 = https://igs.healthdataworks.net/jp-rezept-medication/CodeSystem-CodeSystem/JP-REZEPT-ICD10
-Alias: $CodeSystemDentalFormula = https://igs.healthdataworks.net/jp-rezept-medication/CodeSystem/CodeSystem-JP-REZEPT-DentalFormula
+Alias: $CodeSystemConditionCode = https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem/CodeSystem-JP-REZEPT-ConditionCode
+Alias: $CodeSystemICD10 = https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem/CodeSystem-JP-REZEPT-ICD10
+Alias: $CodeSystemDentalFormula = https://igs.healthdataworks.net/jp-rezept-medical/CodeSystem/CodeSystem-JP-REZEPT-DentalFormula
 
 Alias: $CodeSystemMedicationdispensePerformerFunction = http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function
 Alias: $CodeSystemOrganizationType = http://terminology.hl7.org/CodeSystem/organization-type
@@ -134,8 +134,8 @@ Alias: $ValueSetSpecificDisease = https://igs.healthdataworks.net/jp-rezept-medi
 Alias: $ValueSetSpecificEquipment = https://igs.healthdataworks.net/jp-rezept-medical/ValueSet/ValueSet-JP-REZEPT-SpecificEquipment
 Alias: $ValueSetSpecificEquipmentUnit = https://igs.healthdataworks.net/jp-rezept-medical/ValueSet/ValueSet-JP-REZEPT-SpecificEquipmentUnit
 Alias: $ValueSetWardDivision = https://igs.healthdataworks.net/jp-rezept-medical/ValueSet/ValueSet-JP-REZEPT-WardDivision
-Alias: $ValueSetConditionCode = https://igs.healthdataworks.net/jp-rezept-medication/ValueSet/ValueSet-JP-REZEPT-ConditionCode
-Alias: $ValueSetDentalFormula = https://igs.healthdataworks.net/jp-rezept-medication/ValueSet/ValueSet-JP-REZEPT-DentalFormula
+Alias: $ValueSetConditionCode = https://igs.healthdataworks.net/jp-rezept-medical/ValueSet/ValueSet-JP-REZEPT-ConditionCode
+Alias: $ValueSetDentalFormula = https://igs.healthdataworks.net/jp-rezept-medical/ValueSet/ValueSet-JP-REZEPT-DentalFormula
 
 Alias: $ValueSetProccessPriority = http://hl7.org/fhir/ValueSet/process-priority
 Alias: $ValueSetProccessPayeetype = http://hl7.org/fhir/ValueSet/payeetype

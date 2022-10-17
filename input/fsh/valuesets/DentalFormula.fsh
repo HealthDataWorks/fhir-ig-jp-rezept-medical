@@ -4,4 +4,5 @@ Title: "歯式コード"
 Description: "このバリューセットには、レセプト電算処理システムで定義されている歯式コードが含まれます。"
 * ^url = $ValueSetDentalFormula
 * ^status = #draft
+* ^experimental = false
 * include codes from system DentalFormula
